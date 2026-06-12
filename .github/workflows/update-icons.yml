@@ -1,0 +1,46 @@
+name: Update Icons
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq curl jq unzip
+
+      - name: Fetch latest versions
+        id: fetch
+        run: |
+          bash scripts/fetch-all.sh 2>&1 | tee fetch_output.txt
+          if grep -q "Updates applied" fetch_output.txt; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Regenerate Go code
+        if: steps.fetch.outputs.changed == 'true'
+        run: go run gen/main.go
+
+      - name: Commit and push
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          git config user.name "icons-bot"
+          git config user.email "bot@assaidy.github.io"
+          git add -A
+          git diff --cached --quiet || git commit -m "update icons $(date +'%Y-%m-%d')"
+          git push
