@@ -30,7 +30,6 @@ svg := lucide.User(icons.Params{Class: "fill-blue-500", Id: "icon-1"})
 | `icons/materialicons/rounded` | 2,122 | [Google Material Icons](https://github.com/google/material-design-icons) | Apache 2.0 |
 | `icons/materialicons/sharp` | 2,122 | [Google Material Icons](https://github.com/google/material-design-icons) | Apache 2.0 |
 | `icons/tablericons` | 5,093 | [Tabler Icons](https://github.com/tabler/tabler-icons) | MIT |
-| **Total** | **13,278** | | |
 
 ## License
 
