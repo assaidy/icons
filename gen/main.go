@@ -91,15 +91,12 @@ func writeGoFile(outDir string, pkgName string, icons []iconDef) error {
 
 	buf.WriteString("// Code automatically generated. DO NOT EDIT.\n\n")
 	fmt.Fprintf(&buf, "package %s\n\n", pkgName)
-	buf.WriteString("import (\n\t\"embed\"\n\n\t\"github.com/assaidy/icons\"\n)\n\n")
-	buf.WriteString("//go:embed *.svg\n")
-	buf.WriteString("var svgFiles embed.FS\n\n")
+	buf.WriteString("import (\n\t_ \"embed\"\n\n\t\"github.com/assaidy/icons\"\n)\n\n")
 
 	for _, icon := range icons {
-		fmt.Fprintf(&buf, "func %s(params ...icons.Params) string {\n", icon.name)
-		fmt.Fprintf(&buf, "\tdata, _ := svgFiles.ReadFile(\"%s\")\n", icon.filename)
-		buf.WriteString("\treturn icons.ApplyParams(string(data), params...)\n")
-		buf.WriteString("}\n\n")
+		fmt.Fprintf(&buf, "//go:embed %s\n", icon.filename)
+		fmt.Fprintf(&buf, "var _%s string\n", icon.name)
+		fmt.Fprintf(&buf, "func %s(params ...icons.Params) string {\n\treturn icons.ApplyParams(_%s, params...)\n}\n\n", icon.name, icon.name)
 	}
 
 	content := strings.TrimRight(buf.String(), "\n")
