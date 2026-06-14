@@ -1,0 +1,23 @@
+── Checking 3 libraries ──
+[2026-06-14T02:54:24+0000] Downloading lucide-icons/lucide 1.19.0
+  lucide: 1.17.0 → 1.19.0
+    old: 1819 icons, new: 1833 icons
+      added (14):
+        + ad.svg
+        + eye-dashed.svg
+        + list-sort-ascending.svg
+        + list-sort-descending.svg
+        + play-off.svg
+        + podium.svg
+        + save-pen.svg
+        + save-plus.svg
+        + star-check.svg
+        + star-minus.svg
+        + star-plus.svg
+        + star-x.svg
+        + webcam-off.svg
+        + wrench-off.svg
+material-icons: no changes (0.14.15)
+tabler-icons: no changes (v3.44.0)
+
+✓ Updates applied — run 'go run gen/main.go' to regenerate Go code

@@ -38,6 +38,12 @@ func Activity(params ...icons.Params) string {
 	return icons.ApplyParams(_Activity, params...)
 }
 
+//go:embed ad.svg
+var _Ad string
+func Ad(params ...icons.Params) string {
+	return icons.ApplyParams(_Ad, params...)
+}
+
 //go:embed air-vent.svg
 var _AirVent string
 func AirVent(params ...icons.Params) string {
@@ -3566,6 +3572,12 @@ func EyeClosed(params ...icons.Params) string {
 	return icons.ApplyParams(_EyeClosed, params...)
 }
 
+//go:embed eye-dashed.svg
+var _EyeDashed string
+func EyeDashed(params ...icons.Params) string {
+	return icons.ApplyParams(_EyeDashed, params...)
+}
+
 //go:embed eye-off.svg
 var _EyeOff string
 func EyeOff(params ...icons.Params) string {
@@ -5666,6 +5678,18 @@ func ListRestart(params ...icons.Params) string {
 	return icons.ApplyParams(_ListRestart, params...)
 }
 
+//go:embed list-sort-ascending.svg
+var _ListSortAscending string
+func ListSortAscending(params ...icons.Params) string {
+	return icons.ApplyParams(_ListSortAscending, params...)
+}
+
+//go:embed list-sort-descending.svg
+var _ListSortDescending string
+func ListSortDescending(params ...icons.Params) string {
+	return icons.ApplyParams(_ListSortDescending, params...)
+}
+
 //go:embed list-start.svg
 var _ListStart string
 func ListStart(params ...icons.Params) string {
@@ -7430,6 +7454,12 @@ func Play(params ...icons.Params) string {
 	return icons.ApplyParams(_Play, params...)
 }
 
+//go:embed play-off.svg
+var _PlayOff string
+func PlayOff(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayOff, params...)
+}
+
 //go:embed plug.svg
 var _Plug string
 func Plug(params ...icons.Params) string {
@@ -7464,6 +7494,12 @@ func PocketKnife(params ...icons.Params) string {
 var _Podcast string
 func Podcast(params ...icons.Params) string {
 	return icons.ApplyParams(_Podcast, params...)
+}
+
+//go:embed podium.svg
+var _Podium string
+func Podium(params ...icons.Params) string {
+	return icons.ApplyParams(_Podium, params...)
 }
 
 //go:embed pointer.svg
@@ -8088,6 +8124,18 @@ func SaveAll(params ...icons.Params) string {
 var _SaveOff string
 func SaveOff(params ...icons.Params) string {
 	return icons.ApplyParams(_SaveOff, params...)
+}
+
+//go:embed save-pen.svg
+var _SavePen string
+func SavePen(params ...icons.Params) string {
+	return icons.ApplyParams(_SavePen, params...)
+}
+
+//go:embed save-plus.svg
+var _SavePlus string
+func SavePlus(params ...icons.Params) string {
+	return icons.ApplyParams(_SavePlus, params...)
 }
 
 //go:embed scale.svg
@@ -9284,16 +9332,40 @@ func Star(params ...icons.Params) string {
 	return icons.ApplyParams(_Star, params...)
 }
 
+//go:embed star-check.svg
+var _StarCheck string
+func StarCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_StarCheck, params...)
+}
+
 //go:embed star-half.svg
 var _StarHalf string
 func StarHalf(params ...icons.Params) string {
 	return icons.ApplyParams(_StarHalf, params...)
 }
 
+//go:embed star-minus.svg
+var _StarMinus string
+func StarMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_StarMinus, params...)
+}
+
 //go:embed star-off.svg
 var _StarOff string
 func StarOff(params ...icons.Params) string {
 	return icons.ApplyParams(_StarOff, params...)
+}
+
+//go:embed star-plus.svg
+var _StarPlus string
+func StarPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_StarPlus, params...)
+}
+
+//go:embed star-x.svg
+var _StarX string
+func StarX(params ...icons.Params) string {
+	return icons.ApplyParams(_StarX, params...)
 }
 
 //go:embed step-back.svg
@@ -10670,6 +10742,12 @@ func Webcam(params ...icons.Params) string {
 	return icons.ApplyParams(_Webcam, params...)
 }
 
+//go:embed webcam-off.svg
+var _WebcamOff string
+func WebcamOff(params ...icons.Params) string {
+	return icons.ApplyParams(_WebcamOff, params...)
+}
+
 //go:embed webhook.svg
 var _Webhook string
 func Webhook(params ...icons.Params) string {
@@ -10800,6 +10878,12 @@ func Worm(params ...icons.Params) string {
 var _Wrench string
 func Wrench(params ...icons.Params) string {
 	return icons.ApplyParams(_Wrench, params...)
+}
+
+//go:embed wrench-off.svg
+var _WrenchOff string
+func WrenchOff(params ...icons.Params) string {
+	return icons.ApplyParams(_WrenchOff, params...)
 }
 
 //go:embed x.svg
