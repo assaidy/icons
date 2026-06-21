@@ -1,22 +1,18 @@
 ── Checking 3 libraries ──
-[2026-06-14T02:54:24+0000] Downloading lucide-icons/lucide 1.19.0
-  lucide: 1.17.0 → 1.19.0
-    old: 1819 icons, new: 1833 icons
-      added (14):
-        + ad.svg
-        + eye-dashed.svg
-        + list-sort-ascending.svg
-        + list-sort-descending.svg
-        + play-off.svg
-        + podium.svg
-        + save-pen.svg
-        + save-plus.svg
-        + star-check.svg
-        + star-minus.svg
-        + star-plus.svg
-        + star-x.svg
-        + webcam-off.svg
-        + wrench-off.svg
+[2026-06-21T02:57:42+0000] Downloading lucide-icons/lucide 1.21.0
+  lucide: 1.19.0 → 1.21.0
+    old: 1833 icons, new: 1843 icons
+      added (10):
+        + banknote-check.svg
+        + bone-fracture.svg
+        + clock-arrow-left.svg
+        + clock-arrow-right.svg
+        + pencil-sparkles.svg
+        + save-check.svg
+        + summary.svg
+        + tag-plus.svg
+        + tag-x.svg
+        + user-round-arrow-left.svg
 material-icons: no changes (0.14.15)
 tabler-icons: no changes (v3.44.0)
 

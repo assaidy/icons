@@ -854,6 +854,12 @@ func BanknoteArrowUp(params ...icons.Params) string {
 	return icons.ApplyParams(_BanknoteArrowUp, params...)
 }
 
+//go:embed banknote-check.svg
+var _BanknoteCheck string
+func BanknoteCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_BanknoteCheck, params...)
+}
+
 //go:embed banknote-x.svg
 var _BanknoteX string
 func BanknoteX(params ...icons.Params) string {
@@ -1176,6 +1182,12 @@ func Bomb(params ...icons.Params) string {
 var _Bone string
 func Bone(params ...icons.Params) string {
 	return icons.ApplyParams(_Bone, params...)
+}
+
+//go:embed bone-fracture.svg
+var _BoneFracture string
+func BoneFracture(params ...icons.Params) string {
+	return icons.ApplyParams(_BoneFracture, params...)
 }
 
 //go:embed book.svg
@@ -2640,6 +2652,18 @@ func ClockAlert(params ...icons.Params) string {
 var _ClockArrowDown string
 func ClockArrowDown(params ...icons.Params) string {
 	return icons.ApplyParams(_ClockArrowDown, params...)
+}
+
+//go:embed clock-arrow-left.svg
+var _ClockArrowLeft string
+func ClockArrowLeft(params ...icons.Params) string {
+	return icons.ApplyParams(_ClockArrowLeft, params...)
+}
+
+//go:embed clock-arrow-right.svg
+var _ClockArrowRight string
+func ClockArrowRight(params ...icons.Params) string {
+	return icons.ApplyParams(_ClockArrowRight, params...)
 }
 
 //go:embed clock-arrow-up.svg
@@ -7262,6 +7286,12 @@ func PencilRuler(params ...icons.Params) string {
 	return icons.ApplyParams(_PencilRuler, params...)
 }
 
+//go:embed pencil-sparkles.svg
+var _PencilSparkles string
+func PencilSparkles(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilSparkles, params...)
+}
+
 //go:embed pentagon.svg
 var _Pentagon string
 func Pentagon(params ...icons.Params) string {
@@ -8118,6 +8148,12 @@ func Save(params ...icons.Params) string {
 var _SaveAll string
 func SaveAll(params ...icons.Params) string {
 	return icons.ApplyParams(_SaveAll, params...)
+}
+
+//go:embed save-check.svg
+var _SaveCheck string
+func SaveCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_SaveCheck, params...)
 }
 
 //go:embed save-off.svg
@@ -9476,6 +9512,12 @@ func Subscript(params ...icons.Params) string {
 	return icons.ApplyParams(_Subscript, params...)
 }
 
+//go:embed summary.svg
+var _Summary string
+func Summary(params ...icons.Params) string {
+	return icons.ApplyParams(_Summary, params...)
+}
+
 //go:embed sun.svg
 var _Sun string
 func Sun(params ...icons.Params) string {
@@ -9666,6 +9708,18 @@ func Tablets(params ...icons.Params) string {
 var _Tag string
 func Tag(params ...icons.Params) string {
 	return icons.ApplyParams(_Tag, params...)
+}
+
+//go:embed tag-plus.svg
+var _TagPlus string
+func TagPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_TagPlus, params...)
+}
+
+//go:embed tag-x.svg
+var _TagX string
+func TagX(params ...icons.Params) string {
+	return icons.ApplyParams(_TagX, params...)
 }
 
 //go:embed tags.svg
@@ -10356,6 +10410,12 @@ func UserPlus(params ...icons.Params) string {
 var _UserRound string
 func UserRound(params ...icons.Params) string {
 	return icons.ApplyParams(_UserRound, params...)
+}
+
+//go:embed user-round-arrow-left.svg
+var _UserRoundArrowLeft string
+func UserRoundArrowLeft(params ...icons.Params) string {
+	return icons.ApplyParams(_UserRoundArrowLeft, params...)
 }
 
 //go:embed user-round-check.svg
