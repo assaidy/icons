@@ -3170,16 +3170,52 @@ func Database(params ...icons.Params) string {
 	return icons.ApplyParams(_Database, params...)
 }
 
+//go:embed database-arrow-down.svg
+var _DatabaseArrowDown string
+func DatabaseArrowDown(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseArrowDown, params...)
+}
+
+//go:embed database-arrow-up.svg
+var _DatabaseArrowUp string
+func DatabaseArrowUp(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseArrowUp, params...)
+}
+
 //go:embed database-backup.svg
 var _DatabaseBackup string
 func DatabaseBackup(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabaseBackup, params...)
 }
 
+//go:embed database-check.svg
+var _DatabaseCheck string
+func DatabaseCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseCheck, params...)
+}
+
+//go:embed database-minus.svg
+var _DatabaseMinus string
+func DatabaseMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseMinus, params...)
+}
+
+//go:embed database-plus.svg
+var _DatabasePlus string
+func DatabasePlus(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabasePlus, params...)
+}
+
 //go:embed database-search.svg
 var _DatabaseSearch string
 func DatabaseSearch(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabaseSearch, params...)
+}
+
+//go:embed database-x.svg
+var _DatabaseX string
+func DatabaseX(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseX, params...)
 }
 
 //go:embed database-zap.svg
@@ -7178,6 +7214,12 @@ func PanelsTopLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_PanelsTopLeft, params...)
 }
 
+//go:embed paper-bag.svg
+var _PaperBag string
+func PaperBag(params ...icons.Params) string {
+	return icons.ApplyParams(_PaperBag, params...)
+}
+
 //go:embed paperclip.svg
 var _Paperclip string
 func Paperclip(params ...icons.Params) string {
@@ -7308,6 +7350,12 @@ func Percent(params ...icons.Params) string {
 var _PersonStanding string
 func PersonStanding(params ...icons.Params) string {
 	return icons.ApplyParams(_PersonStanding, params...)
+}
+
+//go:embed phi.svg
+var _Phi string
+func Phi(params ...icons.Params) string {
+	return icons.ApplyParams(_Phi, params...)
 }
 
 //go:embed philippine-peso.svg

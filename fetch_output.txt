@@ -1,18 +1,16 @@
 ── Checking 3 libraries ──
-[2026-06-21T02:57:42+0000] Downloading lucide-icons/lucide 1.21.0
-  lucide: 1.19.0 → 1.21.0
-    old: 1833 icons, new: 1843 icons
-      added (10):
-        + banknote-check.svg
-        + bone-fracture.svg
-        + clock-arrow-left.svg
-        + clock-arrow-right.svg
-        + pencil-sparkles.svg
-        + save-check.svg
-        + summary.svg
-        + tag-plus.svg
-        + tag-x.svg
-        + user-round-arrow-left.svg
+[2026-07-05T02:25:52+0000] Downloading lucide-icons/lucide 1.23.0
+  lucide: 1.21.0 → 1.23.0
+    old: 1843 icons, new: 1851 icons
+      added (8):
+        + database-arrow-down.svg
+        + database-arrow-up.svg
+        + database-check.svg
+        + database-minus.svg
+        + database-plus.svg
+        + database-x.svg
+        + paper-bag.svg
+        + phi.svg
 material-icons: no changes (0.14.15)
 tabler-icons: no changes (v3.44.0)
 
