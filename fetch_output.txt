@@ -1,16 +1,11 @@
 ── Checking 3 libraries ──
-[2026-07-05T02:25:52+0000] Downloading lucide-icons/lucide 1.23.0
-  lucide: 1.21.0 → 1.23.0
-    old: 1843 icons, new: 1851 icons
-      added (8):
-        + database-arrow-down.svg
-        + database-arrow-up.svg
-        + database-check.svg
-        + database-minus.svg
-        + database-plus.svg
-        + database-x.svg
-        + paper-bag.svg
-        + phi.svg
+[2026-07-12T02:01:22+0000] Downloading lucide-icons/lucide 1.24.0
+  lucide: 1.23.0 → 1.24.0
+    old: 1851 icons, new: 1854 icons
+      added (3):
+        + circle-euro-sign.svg
+        + lit.svg
+        + server-plus.svg
 material-icons: no changes (0.14.15)
 tabler-icons: no changes (v3.44.0)
 

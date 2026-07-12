@@ -2336,6 +2336,12 @@ func CircleEqual(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleEqual, params...)
 }
 
+//go:embed circle-euro-sign.svg
+var _CircleEuroSign string
+func CircleEuroSign(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleEuroSign, params...)
+}
+
 //go:embed circle-fading-arrow-up.svg
 var _CircleFadingArrowUp string
 func CircleFadingArrowUp(params ...icons.Params) string {
@@ -5780,6 +5786,12 @@ func ListX(params ...icons.Params) string {
 	return icons.ApplyParams(_ListX, params...)
 }
 
+//go:embed lit.svg
+var _Lit string
+func Lit(params ...icons.Params) string {
+	return icons.ApplyParams(_Lit, params...)
+}
+
 //go:embed loader.svg
 var _Loader string
 func Loader(params ...icons.Params) string {
@@ -8442,6 +8454,12 @@ func ServerCrash(params ...icons.Params) string {
 var _ServerOff string
 func ServerOff(params ...icons.Params) string {
 	return icons.ApplyParams(_ServerOff, params...)
+}
+
+//go:embed server-plus.svg
+var _ServerPlus string
+func ServerPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_ServerPlus, params...)
 }
 
 //go:embed settings.svg
