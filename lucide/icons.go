@@ -2336,10 +2336,10 @@ func CircleEqual(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleEqual, params...)
 }
 
-//go:embed circle-euro-sign.svg
-var _CircleEuroSign string
-func CircleEuroSign(params ...icons.Params) string {
-	return icons.ApplyParams(_CircleEuroSign, params...)
+//go:embed circle-euro.svg
+var _CircleEuro string
+func CircleEuro(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleEuro, params...)
 }
 
 //go:embed circle-fading-arrow-up.svg
@@ -8262,6 +8262,12 @@ func Scan(params ...icons.Params) string {
 var _ScanBarcode string
 func ScanBarcode(params ...icons.Params) string {
 	return icons.ApplyParams(_ScanBarcode, params...)
+}
+
+//go:embed scan-box.svg
+var _ScanBox string
+func ScanBox(params ...icons.Params) string {
+	return icons.ApplyParams(_ScanBox, params...)
 }
 
 //go:embed scan-eye.svg
