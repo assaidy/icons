@@ -21,6 +21,15 @@ type iconDef struct {
 	filename string
 }
 
+type tableEntry struct {
+	importPath  string
+	outDir      string
+	versionFile string
+	sourceName  string
+	sourceURL   string
+	license     string
+}
+
 func main() {
 	repoRoot := "."
 
@@ -36,6 +45,18 @@ func main() {
 		if err := generatePackage(repoRoot, pkg); err != nil {
 			log.Fatalf("Error generating package %s: %v", pkg.outDir, err)
 		}
+	}
+
+	entries := []tableEntry{
+		{"icons/lucide", "lucide", "lucide/.version", "Lucide", "https://github.com/lucide-icons/lucide", "MIT"},
+		{"icons/materialicons/outlined", "materialicons/outlined", "materialicons/.version", "Google Material Icons", "https://github.com/google/material-design-icons", "Apache 2.0"},
+		{"icons/materialicons/rounded", "materialicons/rounded", "materialicons/.version", "Google Material Icons", "https://github.com/google/material-design-icons", "Apache 2.0"},
+		{"icons/materialicons/sharp", "materialicons/sharp", "materialicons/.version", "Google Material Icons", "https://github.com/google/material-design-icons", "Apache 2.0"},
+		{"icons/tablericons", "tablericons", "tablericons/.version", "Tabler Icons", "https://github.com/tabler/tabler-icons", "MIT"},
+	}
+
+	if err := generateReadme(repoRoot, entries); err != nil {
+		log.Fatalf("Error generating README table: %v", err)
 	}
 	fmt.Println("All packages generated successfully.")
 }
@@ -106,5 +127,62 @@ func writeGoFile(outDir string, pkgName string, icons []iconDef) error {
 		return fmt.Errorf("error writing %s: %w", outFile, err)
 	}
 	fmt.Printf("Generated %s (%d icons)\n", outFile, len(icons))
+	return nil
+}
+
+func readVersion(repoRoot, verFile string) string {
+	data, err := os.ReadFile(filepath.Join(repoRoot, verFile))
+	if err != nil {
+		return "unknown"
+	}
+	return strings.TrimSpace(string(data))
+}
+
+func countIcons(repoRoot, outDir string) string {
+	entries, err := os.ReadDir(filepath.Join(repoRoot, outDir))
+	if err != nil {
+		return "?"
+	}
+	n := 0
+	for _, e := range entries {
+		if !e.IsDir() && strings.HasSuffix(e.Name(), ".svg") {
+			n++
+		}
+	}
+	return fmt.Sprintf("%d", n)
+}
+
+func generateReadme(repoRoot string, entries []tableEntry) error {
+	readmePath := filepath.Join(repoRoot, "README.md")
+	data, err := os.ReadFile(readmePath)
+	if err != nil {
+		return fmt.Errorf("cannot read README.md: %w", err)
+	}
+
+	var tableBuf bytes.Buffer
+	tableBuf.WriteString("<!-- TABLE_START -->\n")
+	tableBuf.WriteString("| Import | Icons | Version | Source | License |\n")
+	tableBuf.WriteString("|---|---|---|---|---|\n")
+	for _, e := range entries {
+		version := readVersion(repoRoot, e.versionFile)
+		count := countIcons(repoRoot, e.outDir)
+		tableBuf.WriteString(fmt.Sprintf("| `%s` | %s | %s | [%s](%s) | %s |\n", e.importPath, count, version, e.sourceName, e.sourceURL, e.license))
+	}
+	tableBuf.WriteString("<!-- TABLE_END -->")
+
+	content := string(data)
+	start := strings.Index(content, "<!-- TABLE_START -->")
+	end := strings.Index(content, "<!-- TABLE_END -->")
+	if start == -1 || end == -1 {
+		return fmt.Errorf("could not find TABLE markers in README.md")
+	}
+
+	end += len("<!-- TABLE_END -->")
+	updated := content[:start] + tableBuf.String() + content[end:]
+
+	if err := os.WriteFile(readmePath, []byte(updated), 0644); err != nil {
+		return fmt.Errorf("error writing README.md: %w", err)
+	}
+	fmt.Printf("Updated %s table\n", readmePath)
 	return nil
 }
