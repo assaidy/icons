@@ -23228,6 +23228,18 @@ func PlayBasketball(params ...icons.Params) string {
 	return icons.ApplyParams(_PlayBasketball, params...)
 }
 
+//go:embed play-bug.svg
+var _PlayBug string
+func PlayBug(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayBug, params...)
+}
+
+//go:embed play-bugs.svg
+var _PlayBugs string
+func PlayBugs(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayBugs, params...)
+}
+
 //go:embed play-card.svg
 var _PlayCard string
 func PlayCard(params ...icons.Params) string {
@@ -24314,6 +24326,12 @@ func Reload(params ...icons.Params) string {
 	return icons.ApplyParams(_Reload, params...)
 }
 
+//go:embed remote-control.svg
+var _RemoteControl string
+func RemoteControl(params ...icons.Params) string {
+	return icons.ApplyParams(_RemoteControl, params...)
+}
+
 //go:embed reorder.svg
 var _Reorder string
 func Reorder(params ...icons.Params) string {
@@ -24588,6 +24606,12 @@ func Rocket(params ...icons.Params) string {
 var _RocketOff string
 func RocketOff(params ...icons.Params) string {
 	return icons.ApplyParams(_RocketOff, params...)
+}
+
+//go:embed rocking-chair.svg
+var _RockingChair string
+func RockingChair(params ...icons.Params) string {
+	return icons.ApplyParams(_RockingChair, params...)
 }
 
 //go:embed roller-skating.svg
@@ -24918,6 +24942,12 @@ func RulerOff(params ...icons.Params) string {
 var _Run string
 func Run(params ...icons.Params) string {
 	return icons.ApplyParams(_Run, params...)
+}
+
+//go:embed run-sprint.svg
+var _RunSprint string
+func RunSprint(params ...icons.Params) string {
+	return icons.ApplyParams(_RunSprint, params...)
 }
 
 //go:embed rv-truck.svg
@@ -26456,6 +26486,12 @@ func Sparkles2(params ...icons.Params) string {
 	return icons.ApplyParams(_Sparkles2, params...)
 }
 
+//go:embed sparkles-2-off.svg
+var _Sparkles2Off string
+func Sparkles2Off(params ...icons.Params) string {
+	return icons.ApplyParams(_Sparkles2Off, params...)
+}
+
 //go:embed speakerphone.svg
 var _Speakerphone string
 func Speakerphone(params ...icons.Params) string {
@@ -27938,6 +27974,12 @@ func TableSpark(params ...icons.Params) string {
 	return icons.ApplyParams(_TableSpark, params...)
 }
 
+//go:embed tabs.svg
+var _Tabs string
+func Tabs(params ...icons.Params) string {
+	return icons.ApplyParams(_Tabs, params...)
+}
+
 //go:embed tag.svg
 var _Tag string
 func Tag(params ...icons.Params) string {
@@ -27972,6 +28014,30 @@ func TagStarred(params ...icons.Params) string {
 var _Tags string
 func Tags(params ...icons.Params) string {
 	return icons.ApplyParams(_Tags, params...)
+}
+
+//go:embed tags-chevron-down.svg
+var _TagsChevronDown string
+func TagsChevronDown(params ...icons.Params) string {
+	return icons.ApplyParams(_TagsChevronDown, params...)
+}
+
+//go:embed tags-chevron-left.svg
+var _TagsChevronLeft string
+func TagsChevronLeft(params ...icons.Params) string {
+	return icons.ApplyParams(_TagsChevronLeft, params...)
+}
+
+//go:embed tags-chevron-right.svg
+var _TagsChevronRight string
+func TagsChevronRight(params ...icons.Params) string {
+	return icons.ApplyParams(_TagsChevronRight, params...)
+}
+
+//go:embed tags-chevron-up.svg
+var _TagsChevronUp string
+func TagsChevronUp(params ...icons.Params) string {
+	return icons.ApplyParams(_TagsChevronUp, params...)
 }
 
 //go:embed tags-off.svg
@@ -28350,6 +28416,24 @@ func Theater(params ...icons.Params) string {
 var _Thermometer string
 func Thermometer(params ...icons.Params) string {
 	return icons.ApplyParams(_Thermometer, params...)
+}
+
+//go:embed thinking-high.svg
+var _ThinkingHigh string
+func ThinkingHigh(params ...icons.Params) string {
+	return icons.ApplyParams(_ThinkingHigh, params...)
+}
+
+//go:embed thinking-low.svg
+var _ThinkingLow string
+func ThinkingLow(params ...icons.Params) string {
+	return icons.ApplyParams(_ThinkingLow, params...)
+}
+
+//go:embed thinking-medium.svg
+var _ThinkingMedium string
+func ThinkingMedium(params ...icons.Params) string {
+	return icons.ApplyParams(_ThinkingMedium, params...)
 }
 
 //go:embed thumb-down.svg
@@ -28934,6 +29018,12 @@ func Treadmill(params ...icons.Params) string {
 	return icons.ApplyParams(_Treadmill, params...)
 }
 
+//go:embed treasure-chest.svg
+var _TreasureChest string
+func TreasureChest(params ...icons.Params) string {
+	return icons.ApplyParams(_TreasureChest, params...)
+}
+
 //go:embed tree.svg
 var _Tree string
 func Tree(params ...icons.Params) string {
@@ -29106,6 +29196,12 @@ func TruckOff(params ...icons.Params) string {
 var _TruckReturn string
 func TruckReturn(params ...icons.Params) string {
 	return icons.ApplyParams(_TruckReturn, params...)
+}
+
+//go:embed twig.svg
+var _Twig string
+func Twig(params ...icons.Params) string {
+	return icons.ApplyParams(_Twig, params...)
 }
 
 //go:embed txt.svg
@@ -29520,6 +29616,12 @@ func VariableOff(params ...icons.Params) string {
 var _VariablePlus string
 func VariablePlus(params ...icons.Params) string {
 	return icons.ApplyParams(_VariablePlus, params...)
+}
+
+//go:embed vault.svg
+var _Vault string
+func Vault(params ...icons.Params) string {
+	return icons.ApplyParams(_Vault, params...)
 }
 
 //go:embed vector.svg
@@ -30468,6 +30570,12 @@ func Xd(params ...icons.Params) string {
 var _Xxx string
 func Xxx(params ...icons.Params) string {
 	return icons.ApplyParams(_Xxx, params...)
+}
+
+//go:embed yarn.svg
+var _Yarn string
+func Yarn(params ...icons.Params) string {
+	return icons.ApplyParams(_Yarn, params...)
 }
 
 //go:embed yin-yang.svg
