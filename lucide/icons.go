@@ -284,12 +284,6 @@ func Anchor(params ...icons.Params) string {
 	return icons.ApplyParams(_Anchor, params...)
 }
 
-//go:embed angry.svg
-var _Angry string
-func Angry(params ...icons.Params) string {
-	return icons.ApplyParams(_Angry, params...)
-}
-
 //go:embed angular.svg
 var _Angular string
 func Angular(params ...icons.Params) string {
@@ -300,12 +294,6 @@ func Angular(params ...icons.Params) string {
 var _AngularOld string
 func AngularOld(params ...icons.Params) string {
 	return icons.ApplyParams(_AngularOld, params...)
-}
-
-//go:embed annoyed.svg
-var _Annoyed string
-func Annoyed(params ...icons.Params) string {
-	return icons.ApplyParams(_Annoyed, params...)
 }
 
 //go:embed antenna.svg
@@ -696,6 +684,12 @@ func Atom(params ...icons.Params) string {
 var _AudioLines string
 func AudioLines(params ...icons.Params) string {
 	return icons.ApplyParams(_AudioLines, params...)
+}
+
+//go:embed audio-lines-x.svg
+var _AudioLinesX string
+func AudioLinesX(params ...icons.Params) string {
+	return icons.ApplyParams(_AudioLinesX, params...)
 }
 
 //go:embed audio-waveform.svg
@@ -1760,6 +1754,12 @@ func Broom(params ...icons.Params) string {
 	return icons.ApplyParams(_Broom, params...)
 }
 
+//go:embed broom-sparkles.svg
+var _BroomSparkles string
+func BroomSparkles(params ...icons.Params) string {
+	return icons.ApplyParams(_BroomSparkles, params...)
+}
+
 //go:embed brush.svg
 var _Brush string
 func Brush(params ...icons.Params) string {
@@ -2628,6 +2628,12 @@ func ChevronsUpDown(params ...icons.Params) string {
 var _ChevronsUpDownSquare string
 func ChevronsUpDownSquare(params ...icons.Params) string {
 	return icons.ApplyParams(_ChevronsUpDownSquare, params...)
+}
+
+//go:embed chinese-character.svg
+var _ChineseCharacter string
+func ChineseCharacter(params ...icons.Params) string {
+	return icons.ApplyParams(_ChineseCharacter, params...)
 }
 
 //go:embed church.svg
@@ -4352,6 +4358,48 @@ func FaceAlien(params ...icons.Params) string {
 	return icons.ApplyParams(_FaceAlien, params...)
 }
 
+//go:embed face-angry.svg
+var _FaceAngry string
+func FaceAngry(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceAngry, params...)
+}
+
+//go:embed face-expressionless.svg
+var _FaceExpressionless string
+func FaceExpressionless(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceExpressionless, params...)
+}
+
+//go:embed face-grinning.svg
+var _FaceGrinning string
+func FaceGrinning(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceGrinning, params...)
+}
+
+//go:embed face-neutral.svg
+var _FaceNeutral string
+func FaceNeutral(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceNeutral, params...)
+}
+
+//go:embed face-slightly-frowning.svg
+var _FaceSlightlyFrowning string
+func FaceSlightlyFrowning(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceSlightlyFrowning, params...)
+}
+
+//go:embed face-slightly-smiling.svg
+var _FaceSlightlySmiling string
+func FaceSlightlySmiling(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceSlightlySmiling, params...)
+}
+
+//go:embed face-slightly-smiling-plus.svg
+var _FaceSlightlySmilingPlus string
+func FaceSlightlySmilingPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_FaceSlightlySmilingPlus, params...)
+}
+
 //go:embed factory.svg
 var _Factory string
 func Factory(params ...icons.Params) string {
@@ -5244,12 +5292,6 @@ func Frame(params ...icons.Params) string {
 var _FrogFace string
 func FrogFace(params ...icons.Params) string {
 	return icons.ApplyParams(_FrogFace, params...)
-}
-
-//go:embed frown.svg
-var _Frown string
-func Frown(params ...icons.Params) string {
-	return icons.ApplyParams(_Frown, params...)
 }
 
 //go:embed fruit.svg
@@ -6632,10 +6674,16 @@ func LassoSelect(params ...icons.Params) string {
 	return icons.ApplyParams(_LassoSelect, params...)
 }
 
-//go:embed laugh.svg
-var _Laugh string
-func Laugh(params ...icons.Params) string {
-	return icons.ApplyParams(_Laugh, params...)
+//go:embed layer-arrow-down.svg
+var _LayerArrowDown string
+func LayerArrowDown(params ...icons.Params) string {
+	return icons.ApplyParams(_LayerArrowDown, params...)
+}
+
+//go:embed layer-arrow-up.svg
+var _LayerArrowUp string
+func LayerArrowUp(params ...icons.Params) string {
+	return icons.ApplyParams(_LayerArrowUp, params...)
 }
 
 //go:embed layers.svg
@@ -6648,6 +6696,18 @@ func Layers(params ...icons.Params) string {
 var _Layers2 string
 func Layers2(params ...icons.Params) string {
 	return icons.ApplyParams(_Layers2, params...)
+}
+
+//go:embed layers-arrow-down.svg
+var _LayersArrowDown string
+func LayersArrowDown(params ...icons.Params) string {
+	return icons.ApplyParams(_LayersArrowDown, params...)
+}
+
+//go:embed layers-arrow-up.svg
+var _LayersArrowUp string
+func LayersArrowUp(params ...icons.Params) string {
+	return icons.ApplyParams(_LayersArrowUp, params...)
 }
 
 //go:embed layers-minus.svg
@@ -7472,12 +7532,6 @@ func MegaphoneOff(params ...icons.Params) string {
 	return icons.ApplyParams(_MegaphoneOff, params...)
 }
 
-//go:embed meh.svg
-var _Meh string
-func Meh(params ...icons.Params) string {
-	return icons.ApplyParams(_Meh, params...)
-}
-
 //go:embed memory-stick.svg
 var _MemoryStick string
 func MemoryStick(params ...icons.Params) string {
@@ -8130,18 +8184,6 @@ func Nfc(params ...icons.Params) string {
 var _NonBinary string
 func NonBinary(params ...icons.Params) string {
 	return icons.ApplyParams(_NonBinary, params...)
-}
-
-//go:embed noodle-dark.svg
-var _NoodleDark string
-func NoodleDark(params ...icons.Params) string {
-	return icons.ApplyParams(_NoodleDark, params...)
-}
-
-//go:embed noodle-light.svg
-var _NoodleLight string
-func NoodleLight(params ...icons.Params) string {
-	return icons.ApplyParams(_NoodleLight, params...)
 }
 
 //go:embed notebook.svg
@@ -10124,6 +10166,12 @@ func ShieldKeyhole(params ...icons.Params) string {
 	return icons.ApplyParams(_ShieldKeyhole, params...)
 }
 
+//go:embed shield-lock.svg
+var _ShieldLock string
+func ShieldLock(params ...icons.Params) string {
+	return icons.ApplyParams(_ShieldLock, params...)
+}
+
 //go:embed shield-minus.svg
 var _ShieldMinus string
 func ShieldMinus(params ...icons.Params) string {
@@ -10440,18 +10488,6 @@ func SmartphoneCharging(params ...icons.Params) string {
 var _SmartphoneNfc string
 func SmartphoneNfc(params ...icons.Params) string {
 	return icons.ApplyParams(_SmartphoneNfc, params...)
-}
-
-//go:embed smile.svg
-var _Smile string
-func Smile(params ...icons.Params) string {
-	return icons.ApplyParams(_Smile, params...)
-}
-
-//go:embed smile-plus.svg
-var _SmilePlus string
-func SmilePlus(params ...icons.Params) string {
-	return icons.ApplyParams(_SmilePlus, params...)
 }
 
 //go:embed snail.svg
@@ -11418,18 +11454,6 @@ func SupabaseDark(params ...icons.Params) string {
 var _SupabaseLight string
 func SupabaseLight(params ...icons.Params) string {
 	return icons.ApplyParams(_SupabaseLight, params...)
-}
-
-//go:embed super-dark.svg
-var _SuperDark string
-func SuperDark(params ...icons.Params) string {
-	return icons.ApplyParams(_SuperDark, params...)
-}
-
-//go:embed super-light.svg
-var _SuperLight string
-func SuperLight(params ...icons.Params) string {
-	return icons.ApplyParams(_SuperLight, params...)
 }
 
 //go:embed superscript.svg
