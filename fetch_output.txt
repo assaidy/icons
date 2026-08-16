@@ -1,35 +1,11 @@
 ── Checking 3 libraries ──
-[2026-08-09T01:07:14+0000] Downloading lucide-icons/lucide 1.30.0
-  lucide: 1.28.0 → 1.30.0
-    old: 2219 icons, new: 2223 icons
-      removed (11):
-        - angry.svg
-        - annoyed.svg
-        - frown.svg
-        - laugh.svg
-        - meh.svg
-        - noodle-dark.svg
-        - noodle-light.svg
-        - smile-plus.svg
-        - smile.svg
-        - super-dark.svg
-        - super-light.svg
-      added (15):
-        + audio-lines-x.svg
-        + broom-sparkles.svg
-        + chinese-character.svg
-        + face-angry.svg
-        + face-expressionless.svg
-        + face-grinning.svg
-        + face-neutral.svg
-        + face-slightly-frowning.svg
-        + face-slightly-smiling-plus.svg
-        + face-slightly-smiling.svg
-        + layer-arrow-down.svg
-        + layer-arrow-up.svg
-        + layers-arrow-down.svg
-        + layers-arrow-up.svg
-        + shield-lock.svg
+[2026-08-16T00:52:08+0000] Downloading lucide-icons/lucide 1.31.0
+  lucide: 1.30.0 → 1.31.0
+    old: 2223 icons, new: 2226 icons
+      added (3):
+        + angle.svg
+        + eject.svg
+        + mail-badge.svg
 material-icons: no changes (0.14.15)
 tabler-icons: no changes (v3.46.0)
 

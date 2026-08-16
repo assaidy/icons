@@ -284,6 +284,12 @@ func Anchor(params ...icons.Params) string {
 	return icons.ApplyParams(_Anchor, params...)
 }
 
+//go:embed angle.svg
+var _Angle string
+func Angle(params ...icons.Params) string {
+	return icons.ApplyParams(_Angle, params...)
+}
+
 //go:embed angular.svg
 var _Angular string
 func Angular(params ...icons.Params) string {
@@ -4220,6 +4226,12 @@ func EggOff(params ...icons.Params) string {
 	return icons.ApplyParams(_EggOff, params...)
 }
 
+//go:embed eject.svg
+var _Eject string
+func Eject(params ...icons.Params) string {
+	return icons.ApplyParams(_Eject, params...)
+}
+
 //go:embed elephant.svg
 var _Elephant string
 func Elephant(params ...icons.Params) string {
@@ -7284,6 +7296,12 @@ func Magnet(params ...icons.Params) string {
 var _Mail string
 func Mail(params ...icons.Params) string {
 	return icons.ApplyParams(_Mail, params...)
+}
+
+//go:embed mail-badge.svg
+var _MailBadge string
+func MailBadge(params ...icons.Params) string {
+	return icons.ApplyParams(_MailBadge, params...)
 }
 
 //go:embed mail-check.svg
