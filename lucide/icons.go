@@ -692,6 +692,12 @@ func AudioLines(params ...icons.Params) string {
 	return icons.ApplyParams(_AudioLines, params...)
 }
 
+//go:embed audio-lines-off.svg
+var _AudioLinesOff string
+func AudioLinesOff(params ...icons.Params) string {
+	return icons.ApplyParams(_AudioLinesOff, params...)
+}
+
 //go:embed audio-lines-x.svg
 var _AudioLinesX string
 func AudioLinesX(params ...icons.Params) string {
@@ -2136,6 +2142,12 @@ func CaptionsOff(params ...icons.Params) string {
 var _Car string
 func Car(params ...icons.Params) string {
 	return icons.ApplyParams(_Car, params...)
+}
+
+//go:embed car-battery.svg
+var _CarBattery string
+func CarBattery(params ...icons.Params) string {
+	return icons.ApplyParams(_CarBattery, params...)
 }
 
 //go:embed car-front.svg
@@ -6962,6 +6974,12 @@ func ListChevronsUpDown(params ...icons.Params) string {
 	return icons.ApplyParams(_ListChevronsUpDown, params...)
 }
 
+//go:embed list-clock.svg
+var _ListClock string
+func ListClock(params ...icons.Params) string {
+	return icons.ApplyParams(_ListClock, params...)
+}
+
 //go:embed list-collapse.svg
 var _ListCollapse string
 func ListCollapse(params ...icons.Params) string {
@@ -7802,6 +7820,12 @@ func Microwave(params ...icons.Params) string {
 	return icons.ApplyParams(_Microwave, params...)
 }
 
+//go:embed midi-port.svg
+var _MidiPort string
+func MidiPort(params ...icons.Params) string {
+	return icons.ApplyParams(_MidiPort, params...)
+}
+
 //go:embed milestone.svg
 var _Milestone string
 func Milestone(params ...icons.Params) string {
@@ -7944,6 +7968,18 @@ func Moon(params ...icons.Params) string {
 var _MoonStar string
 func MoonStar(params ...icons.Params) string {
 	return icons.ApplyParams(_MoonStar, params...)
+}
+
+//go:embed mop.svg
+var _Mop string
+func Mop(params ...icons.Params) string {
+	return icons.ApplyParams(_Mop, params...)
+}
+
+//go:embed mop-sparkles.svg
+var _MopSparkles string
+func MopSparkles(params ...icons.Params) string {
+	return icons.ApplyParams(_MopSparkles, params...)
 }
 
 //go:embed mortar-pestle.svg
@@ -10928,6 +10964,12 @@ func SquareDashedTopSolid(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareDashedTopSolid, params...)
 }
 
+//go:embed square-dimensions.svg
+var _SquareDimensions string
+func SquareDimensions(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDimensions, params...)
+}
+
 //go:embed square-divide.svg
 var _SquareDivide string
 func SquareDivide(params ...icons.Params) string {
@@ -11124,6 +11166,12 @@ func SquareStop(params ...icons.Params) string {
 var _SquareTerminal string
 func SquareTerminal(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareTerminal, params...)
+}
+
+//go:embed square-text.svg
+var _SquareText string
+func SquareText(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareText, params...)
 }
 
 //go:embed square-user.svg
@@ -11882,12 +11930,6 @@ func TextSearch(params ...icons.Params) string {
 	return icons.ApplyParams(_TextSearch, params...)
 }
 
-//go:embed text-square.svg
-var _TextSquare string
-func TextSquare(params ...icons.Params) string {
-	return icons.ApplyParams(_TextSquare, params...)
-}
-
 //go:embed text-wrap.svg
 var _TextWrap string
 func TextWrap(params ...icons.Params) string {
@@ -12474,6 +12516,12 @@ func Upload(params ...icons.Params) string {
 var _Usb string
 func Usb(params ...icons.Params) string {
 	return icons.ApplyParams(_Usb, params...)
+}
+
+//go:embed usb-c-port.svg
+var _UsbCPort string
+func UsbCPort(params ...icons.Params) string {
+	return icons.ApplyParams(_UsbCPort, params...)
 }
 
 //go:embed use-of-color.svg
