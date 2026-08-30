@@ -1,19 +1,23 @@
 ── Checking 3 libraries ──
-[2026-08-23T00:52:50+0000] Downloading lucide-icons/lucide 1.33.0
-  lucide: 1.31.0 → 1.33.0
-    old: 2226 icons, new: 2234 icons
-      removed (1):
-        - text-square.svg
-      added (9):
-        + audio-lines-off.svg
-        + car-battery.svg
-        + list-clock.svg
-        + midi-port.svg
-        + mop-sparkles.svg
-        + mop.svg
-        + square-dimensions.svg
-        + square-text.svg
-        + usb-c-port.svg
+[2026-08-30T02:50:38+0000] Downloading lucide-icons/lucide 1.37.0
+  lucide: 1.33.0 → 1.37.0
+    old: 2234 icons, new: 2249 icons
+      added (15):
+        + bat.svg
+        + credit-card-check.svg
+        + credit-card-minus.svg
+        + credit-card-plus.svg
+        + credit-card-x.svg
+        + galaxy.svg
+        + mail-clock.svg
+        + message-circle-dashed-check.svg
+        + playing-card.svg
+        + playing-cards-fan.svg
+        + playing-cards.svg
+        + robot-arm.svg
+        + robot-vacuum.svg
+        + ship-cargo.svg
+        + trailer.svg
 material-icons: no changes (0.14.15)
 tabler-icons: no changes (v3.46.0)
 

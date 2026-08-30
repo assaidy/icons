@@ -986,6 +986,12 @@ func Basketball(params ...icons.Params) string {
 	return icons.ApplyParams(_Basketball, params...)
 }
 
+//go:embed bat.svg
+var _Bat string
+func Bat(params ...icons.Params) string {
+	return icons.ApplyParams(_Bat, params...)
+}
+
 //go:embed bat-ball.svg
 var _BatBall string
 func BatBall(params ...icons.Params) string {
@@ -3674,6 +3680,30 @@ func CreditCard(params ...icons.Params) string {
 	return icons.ApplyParams(_CreditCard, params...)
 }
 
+//go:embed credit-card-check.svg
+var _CreditCardCheck string
+func CreditCardCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_CreditCardCheck, params...)
+}
+
+//go:embed credit-card-minus.svg
+var _CreditCardMinus string
+func CreditCardMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_CreditCardMinus, params...)
+}
+
+//go:embed credit-card-plus.svg
+var _CreditCardPlus string
+func CreditCardPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_CreditCardPlus, params...)
+}
+
+//go:embed credit-card-x.svg
+var _CreditCardX string
+func CreditCardX(params ...icons.Params) string {
+	return icons.ApplyParams(_CreditCardX, params...)
+}
+
 //go:embed cricket-ball.svg
 var _CricketBall string
 func CricketBall(params ...icons.Params) string {
@@ -5352,6 +5382,12 @@ func FunnelPlus(params ...icons.Params) string {
 var _FunnelX string
 func FunnelX(params ...icons.Params) string {
 	return icons.ApplyParams(_FunnelX, params...)
+}
+
+//go:embed galaxy.svg
+var _Galaxy string
+func Galaxy(params ...icons.Params) string {
+	return icons.ApplyParams(_Galaxy, params...)
 }
 
 //go:embed gallery-horizontal.svg
@@ -7328,6 +7364,12 @@ func MailCheck(params ...icons.Params) string {
 	return icons.ApplyParams(_MailCheck, params...)
 }
 
+//go:embed mail-clock.svg
+var _MailClock string
+func MailClock(params ...icons.Params) string {
+	return icons.ApplyParams(_MailClock, params...)
+}
+
 //go:embed mail-minus.svg
 var _MailMinus string
 func MailMinus(params ...icons.Params) string {
@@ -7608,6 +7650,12 @@ func MessageCircleCode(params ...icons.Params) string {
 var _MessageCircleDashed string
 func MessageCircleDashed(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageCircleDashed, params...)
+}
+
+//go:embed message-circle-dashed-check.svg
+var _MessageCircleDashedCheck string
+func MessageCircleDashedCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageCircleDashedCheck, params...)
 }
 
 //go:embed message-circle-heart.svg
@@ -9056,6 +9104,24 @@ func PlayOff(params ...icons.Params) string {
 	return icons.ApplyParams(_PlayOff, params...)
 }
 
+//go:embed playing-card.svg
+var _PlayingCard string
+func PlayingCard(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayingCard, params...)
+}
+
+//go:embed playing-cards.svg
+var _PlayingCards string
+func PlayingCards(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayingCards, params...)
+}
+
+//go:embed playing-cards-fan.svg
+var _PlayingCardsFan string
+func PlayingCardsFan(params ...icons.Params) string {
+	return icons.ApplyParams(_PlayingCardsFan, params...)
+}
+
 //go:embed plug.svg
 var _Plug string
 func Plug(params ...icons.Params) string {
@@ -9594,6 +9660,18 @@ func Ribbon(params ...icons.Params) string {
 var _Road string
 func Road(params ...icons.Params) string {
 	return icons.ApplyParams(_Road, params...)
+}
+
+//go:embed robot-arm.svg
+var _RobotArm string
+func RobotArm(params ...icons.Params) string {
+	return icons.ApplyParams(_RobotArm, params...)
+}
+
+//go:embed robot-vacuum.svg
+var _RobotVacuum string
+func RobotVacuum(params ...icons.Params) string {
+	return icons.ApplyParams(_RobotVacuum, params...)
 }
 
 //go:embed rocket.svg
@@ -10266,6 +10344,12 @@ func ShieldX(params ...icons.Params) string {
 var _Ship string
 func Ship(params ...icons.Params) string {
 	return icons.ApplyParams(_Ship, params...)
+}
+
+//go:embed ship-cargo.svg
+var _ShipCargo string
+func ShipCargo(params ...icons.Params) string {
+	return icons.ApplyParams(_ShipCargo, params...)
 }
 
 //go:embed ship-wheel.svg
@@ -12192,6 +12276,12 @@ func Tractor(params ...icons.Params) string {
 var _TrafficCone string
 func TrafficCone(params ...icons.Params) string {
 	return icons.ApplyParams(_TrafficCone, params...)
+}
+
+//go:embed trailer.svg
+var _Trailer string
+func Trailer(params ...icons.Params) string {
+	return icons.ApplyParams(_Trailer, params...)
 }
 
 //go:embed train-front.svg
