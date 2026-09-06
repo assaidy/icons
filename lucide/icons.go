@@ -1724,6 +1724,12 @@ func BrickWallShield(params ...icons.Params) string {
 	return icons.ApplyParams(_BrickWallShield, params...)
 }
 
+//go:embed bridge.svg
+var _Bridge string
+func Bridge(params ...icons.Params) string {
+	return icons.ApplyParams(_Bridge, params...)
+}
+
 //go:embed briefcase.svg
 var _Briefcase string
 func Briefcase(params ...icons.Params) string {
@@ -2052,6 +2058,18 @@ func Camera(params ...icons.Params) string {
 var _CameraOff string
 func CameraOff(params ...icons.Params) string {
 	return icons.ApplyParams(_CameraOff, params...)
+}
+
+//go:embed can.svg
+var _Can string
+func Can(params ...icons.Params) string {
+	return icons.ApplyParams(_Can, params...)
+}
+
+//go:embed can-soda.svg
+var _CanSoda string
+func CanSoda(params ...icons.Params) string {
+	return icons.ApplyParams(_CanSoda, params...)
 }
 
 //go:embed candle-holder.svg
@@ -3698,6 +3716,12 @@ func CreditCardPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_CreditCardPlus, params...)
 }
 
+//go:embed credit-card-reader.svg
+var _CreditCardReader string
+func CreditCardReader(params ...icons.Params) string {
+	return icons.ApplyParams(_CreditCardReader, params...)
+}
+
 //go:embed credit-card-x.svg
 var _CreditCardX string
 func CreditCardX(params ...icons.Params) string {
@@ -4130,6 +4154,12 @@ func DoorOpen(params ...icons.Params) string {
 	return icons.ApplyParams(_DoorOpen, params...)
 }
 
+//go:embed door-stairwell.svg
+var _DoorStairwell string
+func DoorStairwell(params ...icons.Params) string {
+	return icons.ApplyParams(_DoorStairwell, params...)
+}
+
 //go:embed doorbell-intercom.svg
 var _DoorbellIntercom string
 func DoorbellIntercom(params ...icons.Params) string {
@@ -4302,6 +4332,12 @@ func Ellipsis(params ...icons.Params) string {
 var _EllipsisVertical string
 func EllipsisVertical(params ...icons.Params) string {
 	return icons.ApplyParams(_EllipsisVertical, params...)
+}
+
+//go:embed engine.svg
+var _Engine string
+func Engine(params ...icons.Params) string {
+	return icons.ApplyParams(_Engine, params...)
 }
 
 //go:embed equal.svg
@@ -5484,6 +5520,18 @@ func GemRing(params ...icons.Params) string {
 var _GeorgianLari string
 func GeorgianLari(params ...icons.Params) string {
 	return icons.ApplyParams(_GeorgianLari, params...)
+}
+
+//go:embed germ.svg
+var _Germ string
+func Germ(params ...icons.Params) string {
+	return icons.ApplyParams(_Germ, params...)
+}
+
+//go:embed germ-off.svg
+var _GermOff string
+func GermOff(params ...icons.Params) string {
+	return icons.ApplyParams(_GermOff, params...)
 }
 
 //go:embed ghost.svg
@@ -6938,6 +6986,12 @@ func LightbulbOff(params ...icons.Params) string {
 	return icons.ApplyParams(_LightbulbOff, params...)
 }
 
+//go:embed lighthouse.svg
+var _Lighthouse string
+func Lighthouse(params ...icons.Params) string {
+	return icons.ApplyParams(_Lighthouse, params...)
+}
+
 //go:embed line-dot-right-horizontal.svg
 var _LineDotRightHorizontal string
 func LineDotRightHorizontal(params ...icons.Params) string {
@@ -7380,6 +7434,12 @@ func MailMinus(params ...icons.Params) string {
 var _MailOpen string
 func MailOpen(params ...icons.Params) string {
 	return icons.ApplyParams(_MailOpen, params...)
+}
+
+//go:embed mail-pen.svg
+var _MailPen string
+func MailPen(params ...icons.Params) string {
+	return icons.ApplyParams(_MailPen, params...)
 }
 
 //go:embed mail-plus.svg
@@ -10406,6 +10466,18 @@ func ShoppingCart(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingCart, params...)
 }
 
+//go:embed shopping-cart-minus.svg
+var _ShoppingCartMinus string
+func ShoppingCartMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingCartMinus, params...)
+}
+
+//go:embed shopping-cart-plus.svg
+var _ShoppingCartPlus string
+func ShoppingCartPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingCartPlus, params...)
+}
+
 //go:embed shorts.svg
 var _Shorts string
 func Shorts(params ...icons.Params) string {
@@ -10452,6 +10524,12 @@ func Shredder(params ...icons.Params) string {
 var _Shrimp string
 func Shrimp(params ...icons.Params) string {
 	return icons.ApplyParams(_Shrimp, params...)
+}
+
+//go:embed shrimp-off.svg
+var _ShrimpOff string
+func ShrimpOff(params ...icons.Params) string {
+	return icons.ApplyParams(_ShrimpOff, params...)
 }
 
 //go:embed shrink.svg
@@ -11070,6 +11148,12 @@ func SquareDot(params ...icons.Params) string {
 var _SquareEqual string
 func SquareEqual(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareEqual, params...)
+}
+
+//go:embed square-exclamation-point.svg
+var _SquareExclamationPoint string
+func SquareExclamationPoint(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareExclamationPoint, params...)
 }
 
 //go:embed square-function.svg
@@ -12320,12 +12404,6 @@ func Trash(params ...icons.Params) string {
 	return icons.ApplyParams(_Trash, params...)
 }
 
-//go:embed trash-2.svg
-var _Trash2 string
-func Trash2(params ...icons.Params) string {
-	return icons.ApplyParams(_Trash2, params...)
-}
-
 //go:embed tree-deciduous.svg
 var _TreeDeciduous string
 func TreeDeciduous(params ...icons.Params) string {
@@ -12800,6 +12878,12 @@ func Vault(params ...icons.Params) string {
 	return icons.ApplyParams(_Vault, params...)
 }
 
+//go:embed vector-polygon.svg
+var _VectorPolygon string
+func VectorPolygon(params ...icons.Params) string {
+	return icons.ApplyParams(_VectorPolygon, params...)
+}
+
 //go:embed vector-square.svg
 var _VectorSquare string
 func VectorSquare(params ...icons.Params) string {
@@ -12900,6 +12984,18 @@ func Videotape(params ...icons.Params) string {
 var _View string
 func View(params ...icons.Params) string {
 	return icons.ApplyParams(_View, params...)
+}
+
+//go:embed virus.svg
+var _Virus string
+func Virus(params ...icons.Params) string {
+	return icons.ApplyParams(_Virus, params...)
+}
+
+//go:embed virus-off.svg
+var _VirusOff string
+func VirusOff(params ...icons.Params) string {
+	return icons.ApplyParams(_VirusOff, params...)
 }
 
 //go:embed visible-labels.svg
@@ -13254,6 +13350,12 @@ func WhiskForkKnife(params ...icons.Params) string {
 var _Whisks string
 func Whisks(params ...icons.Params) string {
 	return icons.ApplyParams(_Whisks, params...)
+}
+
+//go:embed whistle.svg
+var _Whistle string
+func Whistle(params ...icons.Params) string {
+	return icons.ApplyParams(_Whistle, params...)
 }
 
 //go:embed whole-word.svg
