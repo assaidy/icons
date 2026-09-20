@@ -3050,6 +3050,24 @@ func Clapperboard(params ...icons.Params) string {
 	return icons.ApplyParams(_Clapperboard, params...)
 }
 
+//go:embed clef-alto.svg
+var _ClefAlto string
+func ClefAlto(params ...icons.Params) string {
+	return icons.ApplyParams(_ClefAlto, params...)
+}
+
+//go:embed clef-bass.svg
+var _ClefBass string
+func ClefBass(params ...icons.Params) string {
+	return icons.ApplyParams(_ClefBass, params...)
+}
+
+//go:embed clef-treble.svg
+var _ClefTreble string
+func ClefTreble(params ...icons.Params) string {
+	return icons.ApplyParams(_ClefTreble, params...)
+}
+
 //go:embed clipboard.svg
 var _Clipboard string
 func Clipboard(params ...icons.Params) string {
@@ -3950,6 +3968,12 @@ func CupToGo(params ...icons.Params) string {
 	return icons.ApplyParams(_CupToGo, params...)
 }
 
+//go:embed cupcake.svg
+var _Cupcake string
+func Cupcake(params ...icons.Params) string {
+	return icons.ApplyParams(_Cupcake, params...)
+}
+
 //go:embed currency.svg
 var _Currency string
 func Currency(params ...icons.Params) string {
@@ -4308,6 +4332,12 @@ func DoorClosed(params ...icons.Params) string {
 var _DoorClosedLocked string
 func DoorClosedLocked(params ...icons.Params) string {
 	return icons.ApplyParams(_DoorClosedLocked, params...)
+}
+
+//go:embed door-closed-package.svg
+var _DoorClosedPackage string
+func DoorClosedPackage(params ...icons.Params) string {
+	return icons.ApplyParams(_DoorClosedPackage, params...)
 }
 
 //go:embed door-open.svg
@@ -6998,6 +7028,12 @@ func Kiwi(params ...icons.Params) string {
 	return icons.ApplyParams(_Kiwi, params...)
 }
 
+//go:embed lambda.svg
+var _Lambda string
+func Lambda(params ...icons.Params) string {
+	return icons.ApplyParams(_Lambda, params...)
+}
+
 //go:embed lamp.svg
 var _Lamp string
 func Lamp(params ...icons.Params) string {
@@ -8348,6 +8384,12 @@ func MonitorPause(params ...icons.Params) string {
 	return icons.ApplyParams(_MonitorPause, params...)
 }
 
+//go:embed monitor-pc.svg
+var _MonitorPc string
+func MonitorPc(params ...icons.Params) string {
+	return icons.ApplyParams(_MonitorPc, params...)
+}
+
 //go:embed monitor-play.svg
 var _MonitorPlay string
 func MonitorPlay(params ...icons.Params) string {
@@ -8670,6 +8712,12 @@ func Navigation2Off(params ...icons.Params) string {
 var _NavigationOff string
 func NavigationOff(params ...icons.Params) string {
 	return icons.ApplyParams(_NavigationOff, params...)
+}
+
+//go:embed nepali-rupee.svg
+var _NepaliRupee string
+func NepaliRupee(params ...icons.Params) string {
+	return icons.ApplyParams(_NepaliRupee, params...)
 }
 
 //go:embed network.svg
@@ -10208,6 +10256,12 @@ func RotateCw(params ...icons.Params) string {
 	return icons.ApplyParams(_RotateCw, params...)
 }
 
+//go:embed rotate-cw-clock.svg
+var _RotateCwClock string
+func RotateCwClock(params ...icons.Params) string {
+	return icons.ApplyParams(_RotateCwClock, params...)
+}
+
 //go:embed rotate-cw-fading-clock.svg
 var _RotateCwFadingClock string
 func RotateCwFadingClock(params ...icons.Params) string {
@@ -11558,6 +11612,12 @@ func SquareDashedMousePointer(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareDashedMousePointer, params...)
 }
 
+//go:embed square-dashed-plus.svg
+var _SquareDashedPlus string
+func SquareDashedPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDashedPlus, params...)
+}
+
 //go:embed square-dashed-text.svg
 var _SquareDashedText string
 func SquareDashedText(params ...icons.Params) string {
@@ -11568,6 +11628,18 @@ func SquareDashedText(params ...icons.Params) string {
 var _SquareDashedTopSolid string
 func SquareDashedTopSolid(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareDashedTopSolid, params...)
+}
+
+//go:embed square-dashed-x.svg
+var _SquareDashedX string
+func SquareDashedX(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDashedX, params...)
+}
+
+//go:embed square-dashed-x-corner.svg
+var _SquareDashedXCorner string
+func SquareDashedXCorner(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDashedXCorner, params...)
 }
 
 //go:embed square-dimensions.svg
@@ -13014,6 +13086,12 @@ func TruckElectric(params ...icons.Params) string {
 var _Ts string
 func Ts(params ...icons.Params) string {
 	return icons.ApplyParams(_Ts, params...)
+}
+
+//go:embed tube-lotion.svg
+var _TubeLotion string
+func TubeLotion(params ...icons.Params) string {
+	return icons.ApplyParams(_TubeLotion, params...)
 }
 
 //go:embed turkish-lira.svg

@@ -338,6 +338,18 @@ func AirTrafficControl(params ...icons.Params) string {
 	return icons.ApplyParams(_AirTrafficControl, params...)
 }
 
+//go:embed airpods-l.svg
+var _AirpodsL string
+func AirpodsL(params ...icons.Params) string {
+	return icons.ApplyParams(_AirpodsL, params...)
+}
+
+//go:embed airpods-r.svg
+var _AirpodsR string
+func AirpodsR(params ...icons.Params) string {
+	return icons.ApplyParams(_AirpodsR, params...)
+}
+
 //go:embed alarm.svg
 var _Alarm string
 func Alarm(params ...icons.Params) string {
@@ -7268,6 +7280,12 @@ func CashBanknotePlus(params ...icons.Params) string {
 	return icons.ApplyParams(_CashBanknotePlus, params...)
 }
 
+//go:embed cash-coin.svg
+var _CashCoin string
+func CashCoin(params ...icons.Params) string {
+	return icons.ApplyParams(_CashCoin, params...)
+}
+
 //go:embed cash-edit.svg
 var _CashEdit string
 func CashEdit(params ...icons.Params) string {
@@ -12944,6 +12962,12 @@ func Edit(params ...icons.Params) string {
 	return icons.ApplyParams(_Edit, params...)
 }
 
+//go:embed edit-bulk.svg
+var _EditBulk string
+func EditBulk(params ...icons.Params) string {
+	return icons.ApplyParams(_EditBulk, params...)
+}
+
 //go:embed edit-circle.svg
 var _EditCircle string
 func EditCircle(params ...icons.Params) string {
@@ -14864,6 +14888,12 @@ func FolderStar(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderStar, params...)
 }
 
+//go:embed folder-stats.svg
+var _FolderStats string
+func FolderStats(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderStats, params...)
+}
+
 //go:embed folder-symlink.svg
 var _FolderSymlink string
 func FolderSymlink(params ...icons.Params) string {
@@ -14874,6 +14904,12 @@ func FolderSymlink(params ...icons.Params) string {
 var _FolderUp string
 func FolderUp(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderUp, params...)
+}
+
+//go:embed folder-user.svg
+var _FolderUser string
+func FolderUser(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderUser, params...)
 }
 
 //go:embed folder-x.svg
@@ -15378,6 +15414,18 @@ func GolfOff(params ...icons.Params) string {
 var _Gps string
 func Gps(params ...icons.Params) string {
 	return icons.ApplyParams(_Gps, params...)
+}
+
+//go:embed gpu.svg
+var _Gpu string
+func Gpu(params ...icons.Params) string {
+	return icons.ApplyParams(_Gpu, params...)
+}
+
+//go:embed gpu-2.svg
+var _Gpu2 string
+func Gpu2(params ...icons.Params) string {
+	return icons.ApplyParams(_Gpu2, params...)
 }
 
 //go:embed gradienter.svg
@@ -19190,6 +19238,12 @@ func MapPinX(params ...icons.Params) string {
 	return icons.ApplyParams(_MapPinX, params...)
 }
 
+//go:embed map-pinned.svg
+var _MapPinned string
+func MapPinned(params ...icons.Params) string {
+	return icons.ApplyParams(_MapPinned, params...)
+}
+
 //go:embed map-pins.svg
 var _MapPins string
 func MapPins(params ...icons.Params) string {
@@ -22052,6 +22106,24 @@ func Option(params ...icons.Params) string {
 	return icons.ApplyParams(_Option, params...)
 }
 
+//go:embed orbit.svg
+var _Orbit string
+func Orbit(params ...icons.Params) string {
+	return icons.ApplyParams(_Orbit, params...)
+}
+
+//go:embed orbit-vertical.svg
+var _OrbitVertical string
+func OrbitVertical(params ...icons.Params) string {
+	return icons.ApplyParams(_OrbitVertical, params...)
+}
+
+//go:embed orbits.svg
+var _Orbits string
+func Orbits(params ...icons.Params) string {
+	return icons.ApplyParams(_Orbits, params...)
+}
+
 //go:embed outbound.svg
 var _Outbound string
 func Outbound(params ...icons.Params) string {
@@ -24260,6 +24332,18 @@ func RecycleOff(params ...icons.Params) string {
 	return icons.ApplyParams(_RecycleOff, params...)
 }
 
+//go:embed reduce-motion.svg
+var _ReduceMotion string
+func ReduceMotion(params ...icons.Params) string {
+	return icons.ApplyParams(_ReduceMotion, params...)
+}
+
+//go:embed reference-image.svg
+var _ReferenceImage string
+func ReferenceImage(params ...icons.Params) string {
+	return icons.ApplyParams(_ReferenceImage, params...)
+}
+
 //go:embed refresh.svg
 var _Refresh string
 func Refresh(params ...icons.Params) string {
@@ -25254,6 +25338,12 @@ func Search(params ...icons.Params) string {
 var _SearchOff string
 func SearchOff(params ...icons.Params) string {
 	return icons.ApplyParams(_SearchOff, params...)
+}
+
+//go:embed secret-phrases.svg
+var _SecretPhrases string
+func SecretPhrases(params ...icons.Params) string {
+	return icons.ApplyParams(_SecretPhrases, params...)
 }
 
 //go:embed section.svg
@@ -27602,6 +27692,12 @@ func Sticker2(params ...icons.Params) string {
 	return icons.ApplyParams(_Sticker2, params...)
 }
 
+//go:embed sticker-smile.svg
+var _StickerSmile string
+func StickerSmile(params ...icons.Params) string {
+	return icons.ApplyParams(_StickerSmile, params...)
+}
+
 //go:embed stopwatch.svg
 var _Stopwatch string
 func Stopwatch(params ...icons.Params) string {
@@ -29844,6 +29940,18 @@ func Vocabulary(params ...icons.Params) string {
 var _VocabularyOff string
 func VocabularyOff(params ...icons.Params) string {
 	return icons.ApplyParams(_VocabularyOff, params...)
+}
+
+//go:embed voice.svg
+var _Voice string
+func Voice(params ...icons.Params) string {
+	return icons.ApplyParams(_Voice, params...)
+}
+
+//go:embed voice-2.svg
+var _Voice2 string
+func Voice2(params ...icons.Params) string {
+	return icons.ApplyParams(_Voice2, params...)
 }
 
 //go:embed volcano.svg
