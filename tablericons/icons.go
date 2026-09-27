@@ -12890,6 +12890,12 @@ func Dumpling(params ...icons.Params) string {
 	return icons.ApplyParams(_Dumpling, params...)
 }
 
+//go:embed duplicate.svg
+var _Duplicate string
+func Duplicate(params ...icons.Params) string {
+	return icons.ApplyParams(_Duplicate, params...)
+}
+
 //go:embed e-passport.svg
 var _EPassport string
 func EPassport(params ...icons.Params) string {
@@ -14768,6 +14774,12 @@ func Folder(params ...icons.Params) string {
 	return icons.ApplyParams(_Folder, params...)
 }
 
+//go:embed folder-ai.svg
+var _FolderAi string
+func FolderAi(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderAi, params...)
+}
+
 //go:embed folder-bolt.svg
 var _FolderBolt string
 func FolderBolt(params ...icons.Params) string {
@@ -14880,6 +14892,12 @@ func FolderSearch(params ...icons.Params) string {
 var _FolderShare string
 func FolderShare(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderShare, params...)
+}
+
+//go:embed folder-sparkle.svg
+var _FolderSparkle string
+func FolderSparkle(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderSparkle, params...)
 }
 
 //go:embed folder-star.svg
@@ -15278,10 +15296,22 @@ func GitBranch(params ...icons.Params) string {
 	return icons.ApplyParams(_GitBranch, params...)
 }
 
+//go:embed git-branch-check.svg
+var _GitBranchCheck string
+func GitBranchCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_GitBranchCheck, params...)
+}
+
 //go:embed git-branch-deleted.svg
 var _GitBranchDeleted string
 func GitBranchDeleted(params ...icons.Params) string {
 	return icons.ApplyParams(_GitBranchDeleted, params...)
+}
+
+//go:embed git-branch-x.svg
+var _GitBranchX string
+func GitBranchX(params ...icons.Params) string {
+	return icons.ApplyParams(_GitBranchX, params...)
 }
 
 //go:embed git-cherry-pick.svg
@@ -15314,6 +15344,12 @@ func GitMerge(params ...icons.Params) string {
 	return icons.ApplyParams(_GitMerge, params...)
 }
 
+//go:embed git-merge-queue.svg
+var _GitMergeQueue string
+func GitMergeQueue(params ...icons.Params) string {
+	return icons.ApplyParams(_GitMergeQueue, params...)
+}
+
 //go:embed git-pull-request.svg
 var _GitPullRequest string
 func GitPullRequest(params ...icons.Params) string {
@@ -15336,6 +15372,18 @@ func GitPullRequestConflict(params ...icons.Params) string {
 var _GitPullRequestDraft string
 func GitPullRequestDraft(params ...icons.Params) string {
 	return icons.ApplyParams(_GitPullRequestDraft, params...)
+}
+
+//go:embed git-pull-request-locked.svg
+var _GitPullRequestLocked string
+func GitPullRequestLocked(params ...icons.Params) string {
+	return icons.ApplyParams(_GitPullRequestLocked, params...)
+}
+
+//go:embed git-pull-request-unlisted.svg
+var _GitPullRequestUnlisted string
+func GitPullRequestUnlisted(params ...icons.Params) string {
+	return icons.ApplyParams(_GitPullRequestUnlisted, params...)
 }
 
 //go:embed gizmo.svg
@@ -19754,6 +19802,12 @@ func Message2(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2, params...)
 }
 
+//go:embed message-2-ai.svg
+var _Message2Ai string
+func Message2Ai(params ...icons.Params) string {
+	return icons.ApplyParams(_Message2Ai, params...)
+}
+
 //go:embed message-2-bolt.svg
 var _Message2Bolt string
 func Message2Bolt(params ...icons.Params) string {
@@ -19856,6 +19910,12 @@ func Message2Share(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2Share, params...)
 }
 
+//go:embed message-2-sparkle.svg
+var _Message2Sparkle string
+func Message2Sparkle(params ...icons.Params) string {
+	return icons.ApplyParams(_Message2Sparkle, params...)
+}
+
 //go:embed message-2-star.svg
 var _Message2Star string
 func Message2Star(params ...icons.Params) string {
@@ -19872,6 +19932,12 @@ func Message2Up(params ...icons.Params) string {
 var _Message2X string
 func Message2X(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2X, params...)
+}
+
+//go:embed message-ai.svg
+var _MessageAi string
+func MessageAi(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageAi, params...)
 }
 
 //go:embed message-bolt.svg
@@ -20144,6 +20210,12 @@ func MessageShare(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageShare, params...)
 }
 
+//go:embed message-sparkle.svg
+var _MessageSparkle string
+func MessageSparkle(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageSparkle, params...)
+}
+
 //go:embed message-star.svg
 var _MessageStar string
 func MessageStar(params ...icons.Params) string {
@@ -20364,6 +20436,12 @@ func Mobiledata(params ...icons.Params) string {
 var _MobiledataOff string
 func MobiledataOff(params ...icons.Params) string {
 	return icons.ApplyParams(_MobiledataOff, params...)
+}
+
+//go:embed model-ai.svg
+var _ModelAi string
+func ModelAi(params ...icons.Params) string {
+	return icons.ApplyParams(_ModelAi, params...)
 }
 
 //go:embed moneybag.svg
@@ -22368,6 +22446,12 @@ func Peace(params ...icons.Params) string {
 var _Pencil string
 func Pencil(params ...icons.Params) string {
 	return icons.ApplyParams(_Pencil, params...)
+}
+
+//go:embed pencil-ai.svg
+var _PencilAi string
+func PencilAi(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilAi, params...)
 }
 
 //go:embed pencil-bolt.svg
@@ -27548,6 +27632,12 @@ func StackBackward(params ...icons.Params) string {
 	return icons.ApplyParams(_StackBackward, params...)
 }
 
+//go:embed stack-check.svg
+var _StackCheck string
+func StackCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_StackCheck, params...)
+}
+
 //go:embed stack-forward.svg
 var _StackForward string
 func StackForward(params ...icons.Params) string {
@@ -27566,6 +27656,18 @@ func StackMiddle(params ...icons.Params) string {
 	return icons.ApplyParams(_StackMiddle, params...)
 }
 
+//go:embed stack-minus.svg
+var _StackMinus string
+func StackMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_StackMinus, params...)
+}
+
+//go:embed stack-plus.svg
+var _StackPlus string
+func StackPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_StackPlus, params...)
+}
+
 //go:embed stack-pop.svg
 var _StackPop string
 func StackPop(params ...icons.Params) string {
@@ -27576,6 +27678,12 @@ func StackPop(params ...icons.Params) string {
 var _StackPush string
 func StackPush(params ...icons.Params) string {
 	return icons.ApplyParams(_StackPush, params...)
+}
+
+//go:embed stack-x.svg
+var _StackX string
+func StackX(params ...icons.Params) string {
+	return icons.ApplyParams(_StackX, params...)
 }
 
 //go:embed stairs.svg

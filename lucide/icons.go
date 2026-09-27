@@ -6500,6 +6500,12 @@ func House(params ...icons.Params) string {
 	return icons.ApplyParams(_House, params...)
 }
 
+//go:embed house-cog.svg
+var _HouseCog string
+func HouseCog(params ...icons.Params) string {
+	return icons.ApplyParams(_HouseCog, params...)
+}
+
 //go:embed house-heart.svg
 var _HouseHeart string
 func HouseHeart(params ...icons.Params) string {
@@ -7346,10 +7352,28 @@ func Lighthouse(params ...icons.Params) string {
 	return icons.ApplyParams(_Lighthouse, params...)
 }
 
+//go:embed line-dot-bottom-vertical.svg
+var _LineDotBottomVertical string
+func LineDotBottomVertical(params ...icons.Params) string {
+	return icons.ApplyParams(_LineDotBottomVertical, params...)
+}
+
+//go:embed line-dot-left-horizontal.svg
+var _LineDotLeftHorizontal string
+func LineDotLeftHorizontal(params ...icons.Params) string {
+	return icons.ApplyParams(_LineDotLeftHorizontal, params...)
+}
+
 //go:embed line-dot-right-horizontal.svg
 var _LineDotRightHorizontal string
 func LineDotRightHorizontal(params ...icons.Params) string {
 	return icons.ApplyParams(_LineDotRightHorizontal, params...)
+}
+
+//go:embed line-dot-top-vertical.svg
+var _LineDotTopVertical string
+func LineDotTopVertical(params ...icons.Params) string {
+	return icons.ApplyParams(_LineDotTopVertical, params...)
 }
 
 //go:embed line-squiggle.svg
@@ -11808,6 +11832,12 @@ func SquareSigma(params ...icons.Params) string {
 var _SquareSlash string
 func SquareSlash(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareSlash, params...)
+}
+
+//go:embed square-sparkles.svg
+var _SquareSparkles string
+func SquareSparkles(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareSparkles, params...)
 }
 
 //go:embed square-split-horizontal.svg
