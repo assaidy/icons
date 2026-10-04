@@ -356,6 +356,12 @@ func Armchair(params ...icons.Params) string {
 	return icons.ApplyParams(_Armchair, params...)
 }
 
+//go:embed armenian-dram.svg
+var _ArmenianDram string
+func ArmenianDram(params ...icons.Params) string {
+	return icons.ApplyParams(_ArmenianDram, params...)
+}
+
 //go:embed arrow-big-down.svg
 var _ArrowBigDown string
 func ArrowBigDown(params ...icons.Params) string {
@@ -888,6 +894,12 @@ func Banana(params ...icons.Params) string {
 var _Bandage string
 func Bandage(params ...icons.Params) string {
 	return icons.ApplyParams(_Bandage, params...)
+}
+
+//go:embed bangladeshi-taka.svg
+var _BangladeshiTaka string
+func BangladeshiTaka(params ...icons.Params) string {
+	return icons.ApplyParams(_BangladeshiTaka, params...)
 }
 
 //go:embed banknote.svg
@@ -4328,6 +4340,12 @@ func DoorClosed(params ...icons.Params) string {
 	return icons.ApplyParams(_DoorClosed, params...)
 }
 
+//go:embed door-closed-cog.svg
+var _DoorClosedCog string
+func DoorClosedCog(params ...icons.Params) string {
+	return icons.ApplyParams(_DoorClosedCog, params...)
+}
+
 //go:embed door-closed-locked.svg
 var _DoorClosedLocked string
 func DoorClosedLocked(params ...icons.Params) string {
@@ -6974,6 +6992,12 @@ func Kayak(params ...icons.Params) string {
 	return icons.ApplyParams(_Kayak, params...)
 }
 
+//go:embed kazakh-tenge.svg
+var _KazakhTenge string
+func KazakhTenge(params ...icons.Params) string {
+	return icons.ApplyParams(_KazakhTenge, params...)
+}
+
 //go:embed kebab.svg
 var _Kebab string
 func Kebab(params ...icons.Params) string {
@@ -7208,6 +7232,12 @@ func LayoutGrid(params ...icons.Params) string {
 	return icons.ApplyParams(_LayoutGrid, params...)
 }
 
+//go:embed layout-grid-circles.svg
+var _LayoutGridCircles string
+func LayoutGridCircles(params ...icons.Params) string {
+	return icons.ApplyParams(_LayoutGridCircles, params...)
+}
+
 //go:embed layout-grid-move-horizontal.svg
 var _LayoutGridMoveHorizontal string
 func LayoutGridMoveHorizontal(params ...icons.Params) string {
@@ -7290,6 +7320,12 @@ func LensConcave(params ...icons.Params) string {
 var _LensConvex string
 func LensConvex(params ...icons.Params) string {
 	return icons.ApplyParams(_LensConvex, params...)
+}
+
+//go:embed letters.svg
+var _Letters string
+func Letters(params ...icons.Params) string {
+	return icons.ApplyParams(_Letters, params...)
 }
 
 //go:embed library.svg
@@ -9788,6 +9824,12 @@ func Printer(params ...icons.Params) string {
 	return icons.ApplyParams(_Printer, params...)
 }
 
+//go:embed printer-3d.svg
+var _Printer3d string
+func Printer3d(params ...icons.Params) string {
+	return icons.ApplyParams(_Printer3d, params...)
+}
+
 //go:embed printer-check.svg
 var _PrinterCheck string
 func PrinterCheck(params ...icons.Params) string {
@@ -10368,6 +10410,12 @@ func Rss(params ...icons.Params) string {
 var _Rugby string
 func Rugby(params ...icons.Params) string {
 	return icons.ApplyParams(_Rugby, params...)
+}
+
+//go:embed rugby-ball.svg
+var _RugbyBall string
+func RugbyBall(params ...icons.Params) string {
+	return icons.ApplyParams(_RugbyBall, params...)
 }
 
 //go:embed ruler.svg
@@ -12626,6 +12674,24 @@ func TextAlignJustify(params ...icons.Params) string {
 	return icons.ApplyParams(_TextAlignJustify, params...)
 }
 
+//go:embed text-align-justify-center.svg
+var _TextAlignJustifyCenter string
+func TextAlignJustifyCenter(params ...icons.Params) string {
+	return icons.ApplyParams(_TextAlignJustifyCenter, params...)
+}
+
+//go:embed text-align-justify-end.svg
+var _TextAlignJustifyEnd string
+func TextAlignJustifyEnd(params ...icons.Params) string {
+	return icons.ApplyParams(_TextAlignJustifyEnd, params...)
+}
+
+//go:embed text-align-justify-start.svg
+var _TextAlignJustifyStart string
+func TextAlignJustifyStart(params ...icons.Params) string {
+	return icons.ApplyParams(_TextAlignJustifyStart, params...)
+}
+
 //go:embed text-align-start.svg
 var _TextAlignStart string
 func TextAlignStart(params ...icons.Params) string {
@@ -14064,6 +14130,12 @@ func Wind(params ...icons.Params) string {
 var _WindArrowDown string
 func WindArrowDown(params ...icons.Params) string {
 	return icons.ApplyParams(_WindArrowDown, params...)
+}
+
+//go:embed wind-arrow-up.svg
+var _WindArrowUp string
+func WindArrowUp(params ...icons.Params) string {
+	return icons.ApplyParams(_WindArrowUp, params...)
 }
 
 //go:embed windmill.svg
