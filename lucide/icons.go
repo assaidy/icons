@@ -6092,6 +6092,12 @@ func GripVertical(params ...icons.Params) string {
 	return icons.ApplyParams(_GripVertical, params...)
 }
 
+//go:embed groceries.svg
+var _Groceries string
+func Groceries(params ...icons.Params) string {
+	return icons.ApplyParams(_Groceries, params...)
+}
+
 //go:embed group.svg
 var _Group string
 func Group(params ...icons.Params) string {
@@ -6192,6 +6198,12 @@ func HandPlatter(params ...icons.Params) string {
 var _Handbag string
 func Handbag(params ...icons.Params) string {
 	return icons.ApplyParams(_Handbag, params...)
+}
+
+//go:embed handle-bottom-right.svg
+var _HandleBottomRight string
+func HandleBottomRight(params ...icons.Params) string {
+	return icons.ApplyParams(_HandleBottomRight, params...)
 }
 
 //go:embed handshake.svg
@@ -6450,6 +6462,12 @@ func HighHeel(params ...icons.Params) string {
 var _Highlighter string
 func Highlighter(params ...icons.Params) string {
 	return icons.ApplyParams(_Highlighter, params...)
+}
+
+//go:embed hiking-stick.svg
+var _HikingStick string
+func HikingStick(params ...icons.Params) string {
+	return icons.ApplyParams(_HikingStick, params...)
 }
 
 //go:embed hockey.svg
@@ -7310,6 +7328,12 @@ func Lemon(params ...icons.Params) string {
 	return icons.ApplyParams(_Lemon, params...)
 }
 
+//go:embed lens.svg
+var _Lens string
+func Lens(params ...icons.Params) string {
+	return icons.ApplyParams(_Lens, params...)
+}
+
 //go:embed lens-concave.svg
 var _LensConcave string
 func LensConcave(params ...icons.Params) string {
@@ -7836,6 +7860,12 @@ func MailCheck(params ...icons.Params) string {
 var _MailClock string
 func MailClock(params ...icons.Params) string {
 	return icons.ApplyParams(_MailClock, params...)
+}
+
+//go:embed mail-dot.svg
+var _MailDot string
+func MailDot(params ...icons.Params) string {
+	return icons.ApplyParams(_MailDot, params...)
 }
 
 //go:embed mail-minus.svg
@@ -9440,6 +9470,12 @@ func PhoneIncoming(params ...icons.Params) string {
 	return icons.ApplyParams(_PhoneIncoming, params...)
 }
 
+//go:embed phone-log.svg
+var _PhoneLog string
+func PhoneLog(params ...icons.Params) string {
+	return icons.ApplyParams(_PhoneLog, params...)
+}
+
 //go:embed phone-missed.svg
 var _PhoneMissed string
 func PhoneMissed(params ...icons.Params) string {
@@ -10670,6 +10706,12 @@ func Scooter(params ...icons.Params) string {
 	return icons.ApplyParams(_Scooter, params...)
 }
 
+//go:embed scratch-blocks.svg
+var _ScratchBlocks string
+func ScratchBlocks(params ...icons.Params) string {
+	return icons.ApplyParams(_ScratchBlocks, params...)
+}
+
 //go:embed screen-share.svg
 var _ScreenShare string
 func ScreenShare(params ...icons.Params) string {
@@ -10680,6 +10722,12 @@ func ScreenShare(params ...icons.Params) string {
 var _ScreenShareOff string
 func ScreenShareOff(params ...icons.Params) string {
 	return icons.ApplyParams(_ScreenShareOff, params...)
+}
+
+//go:embed screw.svg
+var _Screw string
+func Screw(params ...icons.Params) string {
+	return icons.ApplyParams(_Screw, params...)
 }
 
 //go:embed scroll.svg
@@ -10914,6 +10962,12 @@ func ShieldEllipsis(params ...icons.Params) string {
 var _ShieldHalf string
 func ShieldHalf(params ...icons.Params) string {
 	return icons.ApplyParams(_ShieldHalf, params...)
+}
+
+//go:embed shield-house.svg
+var _ShieldHouse string
+func ShieldHouse(params ...icons.Params) string {
+	return icons.ApplyParams(_ShieldHouse, params...)
 }
 
 //go:embed shield-keyhole.svg
@@ -13478,6 +13532,12 @@ func UserRoundSearch(params ...icons.Params) string {
 	return icons.ApplyParams(_UserRoundSearch, params...)
 }
 
+//go:embed user-round-star.svg
+var _UserRoundStar string
+func UserRoundStar(params ...icons.Params) string {
+	return icons.ApplyParams(_UserRoundStar, params...)
+}
+
 //go:embed user-round-x.svg
 var _UserRoundX string
 func UserRoundX(params ...icons.Params) string {
@@ -14088,6 +14148,12 @@ func WifiCog(params ...icons.Params) string {
 var _WifiHigh string
 func WifiHigh(params ...icons.Params) string {
 	return icons.ApplyParams(_WifiHigh, params...)
+}
+
+//go:embed wifi-lock.svg
+var _WifiLock string
+func WifiLock(params ...icons.Params) string {
+	return icons.ApplyParams(_WifiLock, params...)
 }
 
 //go:embed wifi-low.svg

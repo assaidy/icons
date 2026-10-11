@@ -644,10 +644,34 @@ func AlphabetBangla(params ...icons.Params) string {
 	return icons.ApplyParams(_AlphabetBangla, params...)
 }
 
+//go:embed alphabet-chinese.svg
+var _AlphabetChinese string
+func AlphabetChinese(params ...icons.Params) string {
+	return icons.ApplyParams(_AlphabetChinese, params...)
+}
+
 //go:embed alphabet-cyrillic.svg
 var _AlphabetCyrillic string
 func AlphabetCyrillic(params ...icons.Params) string {
 	return icons.ApplyParams(_AlphabetCyrillic, params...)
+}
+
+//go:embed alphabet-devanagari.svg
+var _AlphabetDevanagari string
+func AlphabetDevanagari(params ...icons.Params) string {
+	return icons.ApplyParams(_AlphabetDevanagari, params...)
+}
+
+//go:embed alphabet-ethiopic.svg
+var _AlphabetEthiopic string
+func AlphabetEthiopic(params ...icons.Params) string {
+	return icons.ApplyParams(_AlphabetEthiopic, params...)
+}
+
+//go:embed alphabet-georgian.svg
+var _AlphabetGeorgian string
+func AlphabetGeorgian(params ...icons.Params) string {
+	return icons.ApplyParams(_AlphabetGeorgian, params...)
 }
 
 //go:embed alphabet-greek.svg
@@ -660,6 +684,12 @@ func AlphabetGreek(params ...icons.Params) string {
 var _AlphabetHebrew string
 func AlphabetHebrew(params ...icons.Params) string {
 	return icons.ApplyParams(_AlphabetHebrew, params...)
+}
+
+//go:embed alphabet-japanese.svg
+var _AlphabetJapanese string
+func AlphabetJapanese(params ...icons.Params) string {
+	return icons.ApplyParams(_AlphabetJapanese, params...)
 }
 
 //go:embed alphabet-korean.svg
@@ -3156,6 +3186,12 @@ func Blind(params ...icons.Params) string {
 var _Blob string
 func Blob(params ...icons.Params) string {
 	return icons.ApplyParams(_Blob, params...)
+}
+
+//go:embed blob-dashed.svg
+var _BlobDashed string
+func BlobDashed(params ...icons.Params) string {
+	return icons.ApplyParams(_BlobDashed, params...)
 }
 
 //go:embed blockquote.svg
@@ -8540,6 +8576,12 @@ func CircleHalfVertical(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleHalfVertical, params...)
 }
 
+//go:embed circle-heart.svg
+var _CircleHeart string
+func CircleHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleHeart, params...)
+}
+
 //go:embed circle-key.svg
 var _CircleKey string
 func CircleKey(params ...icons.Params) string {
@@ -8804,10 +8846,22 @@ func CircleOpenArrowUp(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleOpenArrowUp, params...)
 }
 
+//go:embed circle-pause.svg
+var _CirclePause string
+func CirclePause(params ...icons.Params) string {
+	return icons.ApplyParams(_CirclePause, params...)
+}
+
 //go:embed circle-percentage.svg
 var _CirclePercentage string
 func CirclePercentage(params ...icons.Params) string {
 	return icons.ApplyParams(_CirclePercentage, params...)
+}
+
+//go:embed circle-play.svg
+var _CirclePlay string
+func CirclePlay(params ...icons.Params) string {
+	return icons.ApplyParams(_CirclePlay, params...)
 }
 
 //go:embed circle-plus.svg
@@ -8844,6 +8898,12 @@ func CircleRectangleOff(params ...icons.Params) string {
 var _CircleSquare string
 func CircleSquare(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleSquare, params...)
+}
+
+//go:embed circle-stop.svg
+var _CircleStop string
+func CircleStop(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleStop, params...)
 }
 
 //go:embed circle-triangle.svg
@@ -13718,6 +13778,12 @@ func FileLike(params ...icons.Params) string {
 	return icons.ApplyParams(_FileLike, params...)
 }
 
+//go:embed file-lock.svg
+var _FileLock string
+func FileLock(params ...icons.Params) string {
+	return icons.ApplyParams(_FileLock, params...)
+}
+
 //go:embed file-minus.svg
 var _FileMinus string
 func FileMinus(params ...icons.Params) string {
@@ -14832,6 +14898,12 @@ func FolderExclamation(params ...icons.Params) string {
 var _FolderHeart string
 func FolderHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderHeart, params...)
+}
+
+//go:embed folder-lock.svg
+var _FolderLock string
+func FolderLock(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderLock, params...)
 }
 
 //go:embed folder-minus.svg
@@ -17852,6 +17924,18 @@ func Lemon2(params ...icons.Params) string {
 	return icons.ApplyParams(_Lemon2, params...)
 }
 
+//go:embed lens-concave.svg
+var _LensConcave string
+func LensConcave(params ...icons.Params) string {
+	return icons.ApplyParams(_LensConcave, params...)
+}
+
+//go:embed lens-convex.svg
+var _LensConvex string
+func LensConvex(params ...icons.Params) string {
+	return icons.ApplyParams(_LensConvex, params...)
+}
+
 //go:embed letter-a.svg
 var _LetterA string
 func LetterA(params ...icons.Params) string {
@@ -19740,6 +19824,12 @@ func Meeple(params ...icons.Params) string {
 var _Melon string
 func Melon(params ...icons.Params) string {
 	return icons.ApplyParams(_Melon, params...)
+}
+
+//go:embed memory.svg
+var _Memory string
+func Memory(params ...icons.Params) string {
+	return icons.ApplyParams(_Memory, params...)
 }
 
 //go:embed menorah.svg
@@ -26846,6 +26936,18 @@ func SquareDashed(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareDashed, params...)
 }
 
+//go:embed square-dashed-top-solid.svg
+var _SquareDashedTopSolid string
+func SquareDashedTopSolid(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDashedTopSolid, params...)
+}
+
+//go:embed square-dashed-x.svg
+var _SquareDashedX string
+func SquareDashedX(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareDashedX, params...)
+}
+
 //go:embed square-dot.svg
 var _SquareDot string
 func SquareDot(params ...icons.Params) string {
@@ -29292,6 +29394,12 @@ func TrendingUpDown(params ...icons.Params) string {
 var _Triangle string
 func Triangle(params ...icons.Params) string {
 	return icons.ApplyParams(_Triangle, params...)
+}
+
+//go:embed triangle-dashed.svg
+var _TriangleDashed string
+func TriangleDashed(params ...icons.Params) string {
+	return icons.ApplyParams(_TriangleDashed, params...)
 }
 
 //go:embed triangle-inverted.svg
