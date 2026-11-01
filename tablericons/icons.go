@@ -932,6 +932,12 @@ func ArchiveOff(params ...icons.Params) string {
 	return icons.ApplyParams(_ArchiveOff, params...)
 }
 
+//go:embed archive-restore.svg
+var _ArchiveRestore string
+func ArchiveRestore(params ...icons.Params) string {
+	return icons.ApplyParams(_ArchiveRestore, params...)
+}
+
 //go:embed armchair.svg
 var _Armchair string
 func Armchair(params ...icons.Params) string {
@@ -2882,6 +2888,12 @@ func Beach(params ...icons.Params) string {
 	return icons.ApplyParams(_Beach, params...)
 }
 
+//go:embed beach-bag.svg
+var _BeachBag string
+func BeachBag(params ...icons.Params) string {
+	return icons.ApplyParams(_BeachBag, params...)
+}
+
 //go:embed beach-off.svg
 var _BeachOff string
 func BeachOff(params ...icons.Params) string {
@@ -3318,6 +3330,12 @@ func Book(params ...icons.Params) string {
 var _Book2 string
 func Book2(params ...icons.Params) string {
 	return icons.ApplyParams(_Book2, params...)
+}
+
+//go:embed book-clone.svg
+var _BookClone string
+func BookClone(params ...icons.Params) string {
+	return icons.ApplyParams(_BookClone, params...)
 }
 
 //go:embed book-download.svg
@@ -5036,6 +5054,12 @@ func BrandMiniprogram(params ...icons.Params) string {
 	return icons.ApplyParams(_BrandMiniprogram, params...)
 }
 
+//go:embed brand-misskey.svg
+var _BrandMisskey string
+func BrandMisskey(params ...icons.Params) string {
+	return icons.ApplyParams(_BrandMisskey, params...)
+}
+
 //go:embed brand-mixpanel.svg
 var _BrandMixpanel string
 func BrandMixpanel(params ...icons.Params) string {
@@ -5832,6 +5856,12 @@ func BrandVechain(params ...icons.Params) string {
 var _BrandVercel string
 func BrandVercel(params ...icons.Params) string {
 	return icons.ApplyParams(_BrandVercel, params...)
+}
+
+//go:embed brand-viber.svg
+var _BrandViber string
+func BrandViber(params ...icons.Params) string {
+	return icons.ApplyParams(_BrandViber, params...)
 }
 
 //go:embed brand-vimeo.svg
@@ -11072,6 +11102,12 @@ func Deaf(params ...icons.Params) string {
 	return icons.ApplyParams(_Deaf, params...)
 }
 
+//go:embed decagram.svg
+var _Decagram string
+func Decagram(params ...icons.Params) string {
+	return icons.ApplyParams(_Decagram, params...)
+}
+
 //go:embed decimal.svg
 var _Decimal string
 func Decimal(params ...icons.Params) string {
@@ -15416,6 +15452,12 @@ func GitMerge(params ...icons.Params) string {
 	return icons.ApplyParams(_GitMerge, params...)
 }
 
+//go:embed git-merge-ai.svg
+var _GitMergeAi string
+func GitMergeAi(params ...icons.Params) string {
+	return icons.ApplyParams(_GitMergeAi, params...)
+}
+
 //go:embed git-merge-queue.svg
 var _GitMergeQueue string
 func GitMergeQueue(params ...icons.Params) string {
@@ -15434,6 +15476,12 @@ func GitPullRequestClosed(params ...icons.Params) string {
 	return icons.ApplyParams(_GitPullRequestClosed, params...)
 }
 
+//go:embed git-pull-request-closed-ai.svg
+var _GitPullRequestClosedAi string
+func GitPullRequestClosedAi(params ...icons.Params) string {
+	return icons.ApplyParams(_GitPullRequestClosedAi, params...)
+}
+
 //go:embed git-pull-request-conflict.svg
 var _GitPullRequestConflict string
 func GitPullRequestConflict(params ...icons.Params) string {
@@ -15446,10 +15494,22 @@ func GitPullRequestDraft(params ...icons.Params) string {
 	return icons.ApplyParams(_GitPullRequestDraft, params...)
 }
 
+//go:embed git-pull-request-draft-ai.svg
+var _GitPullRequestDraftAi string
+func GitPullRequestDraftAi(params ...icons.Params) string {
+	return icons.ApplyParams(_GitPullRequestDraftAi, params...)
+}
+
 //go:embed git-pull-request-locked.svg
 var _GitPullRequestLocked string
 func GitPullRequestLocked(params ...icons.Params) string {
 	return icons.ApplyParams(_GitPullRequestLocked, params...)
+}
+
+//go:embed git-pull-request-locked-ai.svg
+var _GitPullRequestLockedAi string
+func GitPullRequestLockedAi(params ...icons.Params) string {
+	return icons.ApplyParams(_GitPullRequestLockedAi, params...)
 }
 
 //go:embed git-pull-request-unlisted.svg
@@ -18890,6 +18950,12 @@ func LollipopOff(params ...icons.Params) string {
 	return icons.ApplyParams(_LollipopOff, params...)
 }
 
+//go:embed loop.svg
+var _Loop string
+func Loop(params ...icons.Params) string {
+	return icons.ApplyParams(_Loop, params...)
+}
+
 //go:embed luggage.svg
 var _Luggage string
 func Luggage(params ...icons.Params) string {
@@ -19382,6 +19448,12 @@ func MapPins(params ...icons.Params) string {
 	return icons.ApplyParams(_MapPins, params...)
 }
 
+//go:embed map-pins-off.svg
+var _MapPinsOff string
+func MapPinsOff(params ...icons.Params) string {
+	return icons.ApplyParams(_MapPinsOff, params...)
+}
+
 //go:embed map-plus.svg
 var _MapPlus string
 func MapPlus(params ...icons.Params) string {
@@ -19764,6 +19836,12 @@ func Maximize(params ...icons.Params) string {
 var _MaximizeOff string
 func MaximizeOff(params ...icons.Params) string {
 	return icons.ApplyParams(_MaximizeOff, params...)
+}
+
+//go:embed mcp.svg
+var _Mcp string
+func Mcp(params ...icons.Params) string {
+	return icons.ApplyParams(_Mcp, params...)
 }
 
 //go:embed meat.svg
@@ -22268,6 +22346,12 @@ func Omega(params ...icons.Params) string {
 	return icons.ApplyParams(_Omega, params...)
 }
 
+//go:embed opacity.svg
+var _Opacity string
+func Opacity(params ...icons.Params) string {
+	return icons.ApplyParams(_Opacity, params...)
+}
+
 //go:embed option.svg
 var _Option string
 func Option(params ...icons.Params) string {
@@ -22638,6 +22722,12 @@ func PencilPlus(params ...icons.Params) string {
 var _PencilQuestion string
 func PencilQuestion(params ...icons.Params) string {
 	return icons.ApplyParams(_PencilQuestion, params...)
+}
+
+//go:embed pencil-ruler.svg
+var _PencilRuler string
+func PencilRuler(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilRuler, params...)
 }
 
 //go:embed pencil-search.svg
@@ -26484,6 +26574,12 @@ func Smoking(params ...icons.Params) string {
 var _SmokingNo string
 func SmokingNo(params ...icons.Params) string {
 	return icons.ApplyParams(_SmokingNo, params...)
+}
+
+//go:embed snail.svg
+var _Snail string
+func Snail(params ...icons.Params) string {
+	return icons.ApplyParams(_Snail, params...)
 }
 
 //go:embed snowboarding.svg
@@ -30470,6 +30566,12 @@ func WaveSquare(params ...icons.Params) string {
 	return icons.ApplyParams(_WaveSquare, params...)
 }
 
+//go:embed waveform.svg
+var _Waveform string
+func Waveform(params ...icons.Params) string {
+	return icons.ApplyParams(_Waveform, params...)
+}
+
 //go:embed waves-electricity.svg
 var _WavesElectricity string
 func WavesElectricity(params ...icons.Params) string {
@@ -30732,6 +30834,12 @@ func WorldLongitude(params ...icons.Params) string {
 var _WorldMap string
 func WorldMap(params ...icons.Params) string {
 	return icons.ApplyParams(_WorldMap, params...)
+}
+
+//go:embed world-map-off.svg
+var _WorldMapOff string
+func WorldMapOff(params ...icons.Params) string {
+	return icons.ApplyParams(_WorldMapOff, params...)
 }
 
 //go:embed world-minus.svg
@@ -31098,6 +31206,12 @@ func ZoomReset(params ...icons.Params) string {
 var _ZoomScan string
 func ZoomScan(params ...icons.Params) string {
 	return icons.ApplyParams(_ZoomScan, params...)
+}
+
+//go:embed zsh.svg
+var _Zsh string
+func Zsh(params ...icons.Params) string {
+	return icons.ApplyParams(_Zsh, params...)
 }
 
 //go:embed zzz.svg

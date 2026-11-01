@@ -32,11 +32,11 @@ svg := lucide.User(icons.Params{Class: "fill-blue-500", Id: "icon-1"})
 <!-- TABLE_START -->
 | Import | Icons | Version | Source | License |
 |---|---|---|---|---|
-| `icons/lucide` | 2420 | 1.61.0 | [Lucide](https://github.com/lucide-icons/lucide) | MIT |
+| `icons/lucide` | 2532 | 1.66.0 | [Lucide](https://github.com/lucide-icons/lucide) | MIT |
 | `icons/materialicons/outlined` | 2122 | 0.14.15 | [Google Material Icons](https://github.com/google/material-design-icons) | Apache 2.0 |
 | `icons/materialicons/rounded` | 2122 | 0.14.15 | [Google Material Icons](https://github.com/google/material-design-icons) | Apache 2.0 |
 | `icons/materialicons/sharp` | 2122 | 0.14.15 | [Google Material Icons](https://github.com/google/material-design-icons) | Apache 2.0 |
-| `icons/tablericons` | 5184 | v3.49.0 | [Tabler Icons](https://github.com/tabler/tabler-icons) | MIT |
+| `icons/tablericons` | 5203 | v3.50.0 | [Tabler Icons](https://github.com/tabler/tabler-icons) | MIT |
 <!-- TABLE_END -->
 
 ## License
