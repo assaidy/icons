@@ -638,6 +638,12 @@ func Asterisk(params ...icons.Params) string {
 	return icons.ApplyParams(_Asterisk, params...)
 }
 
+//go:embed asterism.svg
+var _Asterism string
+func Asterism(params ...icons.Params) string {
+	return icons.ApplyParams(_Asterism, params...)
+}
+
 //go:embed astro.svg
 var _Astro string
 func Astro(params ...icons.Params) string {
@@ -2240,6 +2246,12 @@ func CannabisOff(params ...icons.Params) string {
 	return icons.ApplyParams(_CannabisOff, params...)
 }
 
+//go:embed cap.svg
+var _Cap string
+func Cap(params ...icons.Params) string {
+	return icons.ApplyParams(_Cap, params...)
+}
+
 //go:embed captions.svg
 var _Captions string
 func Captions(params ...icons.Params) string {
@@ -2834,34 +2846,22 @@ func CircleArrowDown(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleArrowDown, params...)
 }
 
+//go:embed circle-arrow-down-left-exit.svg
+var _CircleArrowDownLeftExit string
+func CircleArrowDownLeftExit(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleArrowDownLeftExit, params...)
+}
+
+//go:embed circle-arrow-down-right-exit.svg
+var _CircleArrowDownRightExit string
+func CircleArrowDownRightExit(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleArrowDownRightExit, params...)
+}
+
 //go:embed circle-arrow-left.svg
 var _CircleArrowLeft string
 func CircleArrowLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleArrowLeft, params...)
-}
-
-//go:embed circle-arrow-out-down-left.svg
-var _CircleArrowOutDownLeft string
-func CircleArrowOutDownLeft(params ...icons.Params) string {
-	return icons.ApplyParams(_CircleArrowOutDownLeft, params...)
-}
-
-//go:embed circle-arrow-out-down-right.svg
-var _CircleArrowOutDownRight string
-func CircleArrowOutDownRight(params ...icons.Params) string {
-	return icons.ApplyParams(_CircleArrowOutDownRight, params...)
-}
-
-//go:embed circle-arrow-out-up-left.svg
-var _CircleArrowOutUpLeft string
-func CircleArrowOutUpLeft(params ...icons.Params) string {
-	return icons.ApplyParams(_CircleArrowOutUpLeft, params...)
-}
-
-//go:embed circle-arrow-out-up-right.svg
-var _CircleArrowOutUpRight string
-func CircleArrowOutUpRight(params ...icons.Params) string {
-	return icons.ApplyParams(_CircleArrowOutUpRight, params...)
 }
 
 //go:embed circle-arrow-right.svg
@@ -2874,6 +2874,18 @@ func CircleArrowRight(params ...icons.Params) string {
 var _CircleArrowUp string
 func CircleArrowUp(params ...icons.Params) string {
 	return icons.ApplyParams(_CircleArrowUp, params...)
+}
+
+//go:embed circle-arrow-up-left-exit.svg
+var _CircleArrowUpLeftExit string
+func CircleArrowUpLeftExit(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleArrowUpLeftExit, params...)
+}
+
+//go:embed circle-arrow-up-right-exit.svg
+var _CircleArrowUpRightExit string
+func CircleArrowUpRightExit(params ...icons.Params) string {
+	return icons.ApplyParams(_CircleArrowUpRightExit, params...)
 }
 
 //go:embed circle-check.svg
@@ -4970,6 +4982,12 @@ func EvCharger(params ...icons.Params) string {
 	return icons.ApplyParams(_EvCharger, params...)
 }
 
+//go:embed exclamation-mark.svg
+var _ExclamationMark string
+func ExclamationMark(params ...icons.Params) string {
+	return icons.ApplyParams(_ExclamationMark, params...)
+}
+
 //go:embed expand.svg
 var _Expand string
 func Expand(params ...icons.Params) string {
@@ -6378,6 +6396,12 @@ func Grape(params ...icons.Params) string {
 var _GraphHub string
 func GraphHub(params ...icons.Params) string {
 	return icons.ApplyParams(_GraphHub, params...)
+}
+
+//go:embed graph-ring.svg
+var _GraphRing string
+func GraphRing(params ...icons.Params) string {
+	return icons.ApplyParams(_GraphRing, params...)
 }
 
 //go:embed graph-star.svg
@@ -9206,6 +9230,12 @@ func Motorbike(params ...icons.Params) string {
 	return icons.ApplyParams(_Motorbike, params...)
 }
 
+//go:embed mound-shovel.svg
+var _MoundShovel string
+func MoundShovel(params ...icons.Params) string {
+	return icons.ApplyParams(_MoundShovel, params...)
+}
+
 //go:embed mountain.svg
 var _Mountain string
 func Mountain(params ...icons.Params) string {
@@ -10556,6 +10586,12 @@ func QrCode(params ...icons.Params) string {
 	return icons.ApplyParams(_QrCode, params...)
 }
 
+//go:embed question-mark.svg
+var _QuestionMark string
+func QuestionMark(params ...icons.Params) string {
+	return icons.ApplyParams(_QuestionMark, params...)
+}
+
 //go:embed quote.svg
 var _Quote string
 func Quote(params ...icons.Params) string {
@@ -11046,6 +11082,12 @@ func RoundJointsViolation(params ...icons.Params) string {
 var _Route string
 func Route(params ...icons.Params) string {
 	return icons.ApplyParams(_Route, params...)
+}
+
+//go:embed route-arrow-right.svg
+var _RouteArrowRight string
+func RouteArrowRight(params ...icons.Params) string {
+	return icons.ApplyParams(_RouteArrowRight, params...)
 }
 
 //go:embed route-off.svg
@@ -12230,10 +12272,34 @@ func SquareArrowDown(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowDown, params...)
 }
 
+//go:embed square-arrow-down-enter.svg
+var _SquareArrowDownEnter string
+func SquareArrowDownEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownEnter, params...)
+}
+
+//go:embed square-arrow-down-exit.svg
+var _SquareArrowDownExit string
+func SquareArrowDownExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownExit, params...)
+}
+
 //go:embed square-arrow-down-left.svg
 var _SquareArrowDownLeft string
 func SquareArrowDownLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowDownLeft, params...)
+}
+
+//go:embed square-arrow-down-left-enter.svg
+var _SquareArrowDownLeftEnter string
+func SquareArrowDownLeftEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownLeftEnter, params...)
+}
+
+//go:embed square-arrow-down-left-exit.svg
+var _SquareArrowDownLeftExit string
+func SquareArrowDownLeftExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownLeftExit, params...)
 }
 
 //go:embed square-arrow-down-right.svg
@@ -12242,34 +12308,34 @@ func SquareArrowDownRight(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowDownRight, params...)
 }
 
+//go:embed square-arrow-down-right-enter.svg
+var _SquareArrowDownRightEnter string
+func SquareArrowDownRightEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownRightEnter, params...)
+}
+
+//go:embed square-arrow-down-right-exit.svg
+var _SquareArrowDownRightExit string
+func SquareArrowDownRightExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowDownRightExit, params...)
+}
+
 //go:embed square-arrow-left.svg
 var _SquareArrowLeft string
 func SquareArrowLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowLeft, params...)
 }
 
-//go:embed square-arrow-out-down-left.svg
-var _SquareArrowOutDownLeft string
-func SquareArrowOutDownLeft(params ...icons.Params) string {
-	return icons.ApplyParams(_SquareArrowOutDownLeft, params...)
+//go:embed square-arrow-left-enter.svg
+var _SquareArrowLeftEnter string
+func SquareArrowLeftEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowLeftEnter, params...)
 }
 
-//go:embed square-arrow-out-down-right.svg
-var _SquareArrowOutDownRight string
-func SquareArrowOutDownRight(params ...icons.Params) string {
-	return icons.ApplyParams(_SquareArrowOutDownRight, params...)
-}
-
-//go:embed square-arrow-out-up-left.svg
-var _SquareArrowOutUpLeft string
-func SquareArrowOutUpLeft(params ...icons.Params) string {
-	return icons.ApplyParams(_SquareArrowOutUpLeft, params...)
-}
-
-//go:embed square-arrow-out-up-right.svg
-var _SquareArrowOutUpRight string
-func SquareArrowOutUpRight(params ...icons.Params) string {
-	return icons.ApplyParams(_SquareArrowOutUpRight, params...)
+//go:embed square-arrow-left-exit.svg
+var _SquareArrowLeftExit string
+func SquareArrowLeftExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowLeftExit, params...)
 }
 
 //go:embed square-arrow-right.svg
@@ -12296,16 +12362,52 @@ func SquareArrowUp(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowUp, params...)
 }
 
+//go:embed square-arrow-up-enter.svg
+var _SquareArrowUpEnter string
+func SquareArrowUpEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpEnter, params...)
+}
+
+//go:embed square-arrow-up-exit.svg
+var _SquareArrowUpExit string
+func SquareArrowUpExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpExit, params...)
+}
+
 //go:embed square-arrow-up-left.svg
 var _SquareArrowUpLeft string
 func SquareArrowUpLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowUpLeft, params...)
 }
 
+//go:embed square-arrow-up-left-enter.svg
+var _SquareArrowUpLeftEnter string
+func SquareArrowUpLeftEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpLeftEnter, params...)
+}
+
+//go:embed square-arrow-up-left-exit.svg
+var _SquareArrowUpLeftExit string
+func SquareArrowUpLeftExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpLeftExit, params...)
+}
+
 //go:embed square-arrow-up-right.svg
 var _SquareArrowUpRight string
 func SquareArrowUpRight(params ...icons.Params) string {
 	return icons.ApplyParams(_SquareArrowUpRight, params...)
+}
+
+//go:embed square-arrow-up-right-enter.svg
+var _SquareArrowUpRightEnter string
+func SquareArrowUpRightEnter(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpRightEnter, params...)
+}
+
+//go:embed square-arrow-up-right-exit.svg
+var _SquareArrowUpRightExit string
+func SquareArrowUpRightExit(params ...icons.Params) string {
+	return icons.ApplyParams(_SquareArrowUpRightExit, params...)
 }
 
 //go:embed square-asterisk.svg
@@ -13160,6 +13262,42 @@ func StrikethroughSquare(params ...icons.Params) string {
 	return icons.ApplyParams(_StrikethroughSquare, params...)
 }
 
+//go:embed stroke-line-cap-butt.svg
+var _StrokeLineCapButt string
+func StrokeLineCapButt(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineCapButt, params...)
+}
+
+//go:embed stroke-line-cap-round.svg
+var _StrokeLineCapRound string
+func StrokeLineCapRound(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineCapRound, params...)
+}
+
+//go:embed stroke-line-cap-square.svg
+var _StrokeLineCapSquare string
+func StrokeLineCapSquare(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineCapSquare, params...)
+}
+
+//go:embed stroke-line-join-bevel.svg
+var _StrokeLineJoinBevel string
+func StrokeLineJoinBevel(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineJoinBevel, params...)
+}
+
+//go:embed stroke-line-join-miter.svg
+var _StrokeLineJoinMiter string
+func StrokeLineJoinMiter(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineJoinMiter, params...)
+}
+
+//go:embed stroke-line-join-round.svg
+var _StrokeLineJoinRound string
+func StrokeLineJoinRound(params ...icons.Params) string {
+	return icons.ApplyParams(_StrokeLineJoinRound, params...)
+}
+
 //go:embed stroller.svg
 var _Stroller string
 func Stroller(params ...icons.Params) string {
@@ -13670,6 +13808,12 @@ func TextInitial(params ...icons.Params) string {
 	return icons.ApplyParams(_TextInitial, params...)
 }
 
+//go:embed text-pen.svg
+var _TextPen string
+func TextPen(params ...icons.Params) string {
+	return icons.ApplyParams(_TextPen, params...)
+}
+
 //go:embed text-quote.svg
 var _TextQuote string
 func TextQuote(params ...icons.Params) string {
@@ -14004,6 +14148,12 @@ func TramFront(params ...icons.Params) string {
 var _Transgender string
 func Transgender(params ...icons.Params) string {
 	return icons.ApplyParams(_Transgender, params...)
+}
+
+//go:embed trap.svg
+var _Trap string
+func Trap(params ...icons.Params) string {
+	return icons.ApplyParams(_Trap, params...)
 }
 
 //go:embed trash.svg

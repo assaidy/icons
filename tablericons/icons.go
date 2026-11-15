@@ -194,6 +194,12 @@ func AdjustmentsExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_AdjustmentsExclamation, params...)
 }
 
+//go:embed adjustments-flame.svg
+var _AdjustmentsFlame string
+func AdjustmentsFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_AdjustmentsFlame, params...)
+}
+
 //go:embed adjustments-heart.svg
 var _AdjustmentsHeart string
 func AdjustmentsHeart(params ...icons.Params) string {
@@ -204,6 +210,12 @@ func AdjustmentsHeart(params ...icons.Params) string {
 var _AdjustmentsHorizontal string
 func AdjustmentsHorizontal(params ...icons.Params) string {
 	return icons.ApplyParams(_AdjustmentsHorizontal, params...)
+}
+
+//go:embed adjustments-key.svg
+var _AdjustmentsKey string
+func AdjustmentsKey(params ...icons.Params) string {
+	return icons.ApplyParams(_AdjustmentsKey, params...)
 }
 
 //go:embed adjustments-minus.svg
@@ -596,10 +608,10 @@ func AlignCenter(params ...icons.Params) string {
 	return icons.ApplyParams(_AlignCenter, params...)
 }
 
-//go:embed align-justified.svg
-var _AlignJustified string
-func AlignJustified(params ...icons.Params) string {
-	return icons.ApplyParams(_AlignJustified, params...)
+//go:embed align-center-justified.svg
+var _AlignCenterJustified string
+func AlignCenterJustified(params ...icons.Params) string {
+	return icons.ApplyParams(_AlignCenterJustified, params...)
 }
 
 //go:embed align-left.svg
@@ -614,6 +626,12 @@ func AlignLeft2(params ...icons.Params) string {
 	return icons.ApplyParams(_AlignLeft2, params...)
 }
 
+//go:embed align-left-justified.svg
+var _AlignLeftJustified string
+func AlignLeftJustified(params ...icons.Params) string {
+	return icons.ApplyParams(_AlignLeftJustified, params...)
+}
+
 //go:embed align-right.svg
 var _AlignRight string
 func AlignRight(params ...icons.Params) string {
@@ -624,6 +642,12 @@ func AlignRight(params ...icons.Params) string {
 var _AlignRight2 string
 func AlignRight2(params ...icons.Params) string {
 	return icons.ApplyParams(_AlignRight2, params...)
+}
+
+//go:embed align-right-justified.svg
+var _AlignRightJustified string
+func AlignRightJustified(params ...icons.Params) string {
+	return icons.ApplyParams(_AlignRightJustified, params...)
 }
 
 //go:embed alpha.svg
@@ -1502,10 +1526,22 @@ func ArrowMoveDown(params ...icons.Params) string {
 	return icons.ApplyParams(_ArrowMoveDown, params...)
 }
 
+//go:embed arrow-move-down-x.svg
+var _ArrowMoveDownX string
+func ArrowMoveDownX(params ...icons.Params) string {
+	return icons.ApplyParams(_ArrowMoveDownX, params...)
+}
+
 //go:embed arrow-move-left.svg
 var _ArrowMoveLeft string
 func ArrowMoveLeft(params ...icons.Params) string {
 	return icons.ApplyParams(_ArrowMoveLeft, params...)
+}
+
+//go:embed arrow-move-left-x.svg
+var _ArrowMoveLeftX string
+func ArrowMoveLeftX(params ...icons.Params) string {
+	return icons.ApplyParams(_ArrowMoveLeftX, params...)
 }
 
 //go:embed arrow-move-right.svg
@@ -1514,10 +1550,22 @@ func ArrowMoveRight(params ...icons.Params) string {
 	return icons.ApplyParams(_ArrowMoveRight, params...)
 }
 
+//go:embed arrow-move-right-x.svg
+var _ArrowMoveRightX string
+func ArrowMoveRightX(params ...icons.Params) string {
+	return icons.ApplyParams(_ArrowMoveRightX, params...)
+}
+
 //go:embed arrow-move-up.svg
 var _ArrowMoveUp string
 func ArrowMoveUp(params ...icons.Params) string {
 	return icons.ApplyParams(_ArrowMoveUp, params...)
+}
+
+//go:embed arrow-move-up-x.svg
+var _ArrowMoveUpX string
+func ArrowMoveUpX(params ...icons.Params) string {
+	return icons.ApplyParams(_ArrowMoveUpX, params...)
 }
 
 //go:embed arrow-narrow-down.svg
@@ -2660,10 +2708,22 @@ func BasketExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_BasketExclamation, params...)
 }
 
+//go:embed basket-flame.svg
+var _BasketFlame string
+func BasketFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_BasketFlame, params...)
+}
+
 //go:embed basket-heart.svg
 var _BasketHeart string
 func BasketHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_BasketHeart, params...)
+}
+
+//go:embed basket-key.svg
+var _BasketKey string
+func BasketKey(params ...icons.Params) string {
+	return icons.ApplyParams(_BasketKey, params...)
 }
 
 //go:embed basket-minus.svg
@@ -2712,6 +2772,12 @@ func BasketSearch(params ...icons.Params) string {
 var _BasketShare string
 func BasketShare(params ...icons.Params) string {
 	return icons.ApplyParams(_BasketShare, params...)
+}
+
+//go:embed basket-spark.svg
+var _BasketSpark string
+func BasketSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_BasketSpark, params...)
 }
 
 //go:embed basket-star.svg
@@ -2984,10 +3050,22 @@ func BellExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_BellExclamation, params...)
 }
 
+//go:embed bell-flame.svg
+var _BellFlame string
+func BellFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_BellFlame, params...)
+}
+
 //go:embed bell-heart.svg
 var _BellHeart string
 func BellHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_BellHeart, params...)
+}
+
+//go:embed bell-key.svg
+var _BellKey string
+func BellKey(params ...icons.Params) string {
+	return icons.ApplyParams(_BellKey, params...)
 }
 
 //go:embed bell-minus.svg
@@ -3054,6 +3132,12 @@ func BellSearch(params ...icons.Params) string {
 var _BellShare string
 func BellShare(params ...icons.Params) string {
 	return icons.ApplyParams(_BellShare, params...)
+}
+
+//go:embed bell-spark.svg
+var _BellSpark string
+func BellSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_BellSpark, params...)
 }
 
 //go:embed bell-star.svg
@@ -3368,10 +3452,64 @@ func BookmarkAi(params ...icons.Params) string {
 	return icons.ApplyParams(_BookmarkAi, params...)
 }
 
+//go:embed bookmark-bolt.svg
+var _BookmarkBolt string
+func BookmarkBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkBolt, params...)
+}
+
+//go:embed bookmark-cancel.svg
+var _BookmarkCancel string
+func BookmarkCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkCancel, params...)
+}
+
+//go:embed bookmark-check.svg
+var _BookmarkCheck string
+func BookmarkCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkCheck, params...)
+}
+
+//go:embed bookmark-code.svg
+var _BookmarkCode string
+func BookmarkCode(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkCode, params...)
+}
+
+//go:embed bookmark-cog.svg
+var _BookmarkCog string
+func BookmarkCog(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkCog, params...)
+}
+
+//go:embed bookmark-dollar.svg
+var _BookmarkDollar string
+func BookmarkDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkDollar, params...)
+}
+
+//go:embed bookmark-down.svg
+var _BookmarkDown string
+func BookmarkDown(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkDown, params...)
+}
+
 //go:embed bookmark-edit.svg
 var _BookmarkEdit string
 func BookmarkEdit(params ...icons.Params) string {
 	return icons.ApplyParams(_BookmarkEdit, params...)
+}
+
+//go:embed bookmark-exclamation.svg
+var _BookmarkExclamation string
+func BookmarkExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkExclamation, params...)
+}
+
+//go:embed bookmark-heart.svg
+var _BookmarkHeart string
+func BookmarkHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkHeart, params...)
 }
 
 //go:embed bookmark-minus.svg
@@ -3386,6 +3524,18 @@ func BookmarkOff(params ...icons.Params) string {
 	return icons.ApplyParams(_BookmarkOff, params...)
 }
 
+//go:embed bookmark-pause.svg
+var _BookmarkPause string
+func BookmarkPause(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkPause, params...)
+}
+
+//go:embed bookmark-pin.svg
+var _BookmarkPin string
+func BookmarkPin(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkPin, params...)
+}
+
 //go:embed bookmark-plus.svg
 var _BookmarkPlus string
 func BookmarkPlus(params ...icons.Params) string {
@@ -3396,6 +3546,36 @@ func BookmarkPlus(params ...icons.Params) string {
 var _BookmarkQuestion string
 func BookmarkQuestion(params ...icons.Params) string {
 	return icons.ApplyParams(_BookmarkQuestion, params...)
+}
+
+//go:embed bookmark-search.svg
+var _BookmarkSearch string
+func BookmarkSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkSearch, params...)
+}
+
+//go:embed bookmark-share.svg
+var _BookmarkShare string
+func BookmarkShare(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkShare, params...)
+}
+
+//go:embed bookmark-star.svg
+var _BookmarkStar string
+func BookmarkStar(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkStar, params...)
+}
+
+//go:embed bookmark-up.svg
+var _BookmarkUp string
+func BookmarkUp(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkUp, params...)
+}
+
+//go:embed bookmark-x.svg
+var _BookmarkX string
+func BookmarkX(params ...icons.Params) string {
+	return icons.ApplyParams(_BookmarkX, params...)
 }
 
 //go:embed bookmarks.svg
@@ -6362,6 +6542,12 @@ func BuildingBank(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingBank, params...)
 }
 
+//go:embed building-bolt.svg
+var _BuildingBolt string
+func BuildingBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingBolt, params...)
+}
+
 //go:embed building-bridge.svg
 var _BuildingBridge string
 func BuildingBridge(params ...icons.Params) string {
@@ -6386,6 +6572,12 @@ func BuildingBurjAlArab(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingBurjAlArab, params...)
 }
 
+//go:embed building-cancel.svg
+var _BuildingCancel string
+func BuildingCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingCancel, params...)
+}
+
 //go:embed building-carousel.svg
 var _BuildingCarousel string
 func BuildingCarousel(params ...icons.Params) string {
@@ -6398,6 +6590,12 @@ func BuildingCastle(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingCastle, params...)
 }
 
+//go:embed building-check.svg
+var _BuildingCheck string
+func BuildingCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingCheck, params...)
+}
+
 //go:embed building-church.svg
 var _BuildingChurch string
 func BuildingChurch(params ...icons.Params) string {
@@ -6408,6 +6606,12 @@ func BuildingChurch(params ...icons.Params) string {
 var _BuildingCircus string
 func BuildingCircus(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingCircus, params...)
+}
+
+//go:embed building-code.svg
+var _BuildingCode string
+func BuildingCode(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingCode, params...)
 }
 
 //go:embed building-cog.svg
@@ -6428,6 +6632,18 @@ func BuildingCottage(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingCottage, params...)
 }
 
+//go:embed building-dollar.svg
+var _BuildingDollar string
+func BuildingDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingDollar, params...)
+}
+
+//go:embed building-down.svg
+var _BuildingDown string
+func BuildingDown(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingDown, params...)
+}
+
 //go:embed building-eiffel-tower.svg
 var _BuildingEiffelTower string
 func BuildingEiffelTower(params ...icons.Params) string {
@@ -6438,6 +6654,12 @@ func BuildingEiffelTower(params ...icons.Params) string {
 var _BuildingEstate string
 func BuildingEstate(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingEstate, params...)
+}
+
+//go:embed building-exclamation.svg
+var _BuildingExclamation string
+func BuildingExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingExclamation, params...)
 }
 
 //go:embed building-factory.svg
@@ -6456,6 +6678,12 @@ func BuildingFactory2(params ...icons.Params) string {
 var _BuildingFortress string
 func BuildingFortress(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingFortress, params...)
+}
+
+//go:embed building-heart.svg
+var _BuildingHeart string
+func BuildingHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingHeart, params...)
 }
 
 //go:embed building-hospital.svg
@@ -6494,16 +6722,46 @@ func BuildingOff(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingOff, params...)
 }
 
+//go:embed building-pause.svg
+var _BuildingPause string
+func BuildingPause(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingPause, params...)
+}
+
 //go:embed building-pavilion.svg
 var _BuildingPavilion string
 func BuildingPavilion(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingPavilion, params...)
 }
 
+//go:embed building-pin.svg
+var _BuildingPin string
+func BuildingPin(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingPin, params...)
+}
+
 //go:embed building-plus.svg
 var _BuildingPlus string
 func BuildingPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingPlus, params...)
+}
+
+//go:embed building-question.svg
+var _BuildingQuestion string
+func BuildingQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingQuestion, params...)
+}
+
+//go:embed building-search.svg
+var _BuildingSearch string
+func BuildingSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingSearch, params...)
+}
+
+//go:embed building-share.svg
+var _BuildingShare string
+func BuildingShare(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingShare, params...)
 }
 
 //go:embed building-skyscraper.svg
@@ -6518,6 +6776,12 @@ func BuildingStadium(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingStadium, params...)
 }
 
+//go:embed building-star.svg
+var _BuildingStar string
+func BuildingStar(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingStar, params...)
+}
+
 //go:embed building-store.svg
 var _BuildingStore string
 func BuildingStore(params ...icons.Params) string {
@@ -6530,6 +6794,12 @@ func BuildingTunnel(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingTunnel, params...)
 }
 
+//go:embed building-up.svg
+var _BuildingUp string
+func BuildingUp(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingUp, params...)
+}
+
 //go:embed building-warehouse.svg
 var _BuildingWarehouse string
 func BuildingWarehouse(params ...icons.Params) string {
@@ -6540,6 +6810,12 @@ func BuildingWarehouse(params ...icons.Params) string {
 var _BuildingWindTurbine string
 func BuildingWindTurbine(params ...icons.Params) string {
 	return icons.ApplyParams(_BuildingWindTurbine, params...)
+}
+
+//go:embed building-x.svg
+var _BuildingX string
+func BuildingX(params ...icons.Params) string {
+	return icons.ApplyParams(_BuildingX, params...)
 }
 
 //go:embed buildings.svg
@@ -6722,10 +6998,22 @@ func CalendarExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_CalendarExclamation, params...)
 }
 
+//go:embed calendar-flame.svg
+var _CalendarFlame string
+func CalendarFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_CalendarFlame, params...)
+}
+
 //go:embed calendar-heart.svg
 var _CalendarHeart string
 func CalendarHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_CalendarHeart, params...)
+}
+
+//go:embed calendar-key.svg
+var _CalendarKey string
+func CalendarKey(params ...icons.Params) string {
+	return icons.ApplyParams(_CalendarKey, params...)
 }
 
 //go:embed calendar-minus.svg
@@ -6798,6 +7086,12 @@ func CalendarShare(params ...icons.Params) string {
 var _CalendarSmile string
 func CalendarSmile(params ...icons.Params) string {
 	return icons.ApplyParams(_CalendarSmile, params...)
+}
+
+//go:embed calendar-spark.svg
+var _CalendarSpark string
+func CalendarSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_CalendarSpark, params...)
 }
 
 //go:embed calendar-star.svg
@@ -6908,10 +7202,22 @@ func CameraExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_CameraExclamation, params...)
 }
 
+//go:embed camera-flame.svg
+var _CameraFlame string
+func CameraFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_CameraFlame, params...)
+}
+
 //go:embed camera-heart.svg
 var _CameraHeart string
 func CameraHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_CameraHeart, params...)
+}
+
+//go:embed camera-key.svg
+var _CameraKey string
+func CameraKey(params ...icons.Params) string {
+	return icons.ApplyParams(_CameraKey, params...)
 }
 
 //go:embed camera-minus.svg
@@ -7304,10 +7610,58 @@ func CashBanknote(params ...icons.Params) string {
 	return icons.ApplyParams(_CashBanknote, params...)
 }
 
+//go:embed cash-banknote-bolt.svg
+var _CashBanknoteBolt string
+func CashBanknoteBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteBolt, params...)
+}
+
+//go:embed cash-banknote-cancel.svg
+var _CashBanknoteCancel string
+func CashBanknoteCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteCancel, params...)
+}
+
+//go:embed cash-banknote-check.svg
+var _CashBanknoteCheck string
+func CashBanknoteCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteCheck, params...)
+}
+
+//go:embed cash-banknote-code.svg
+var _CashBanknoteCode string
+func CashBanknoteCode(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteCode, params...)
+}
+
+//go:embed cash-banknote-cog.svg
+var _CashBanknoteCog string
+func CashBanknoteCog(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteCog, params...)
+}
+
+//go:embed cash-banknote-dollar.svg
+var _CashBanknoteDollar string
+func CashBanknoteDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteDollar, params...)
+}
+
+//go:embed cash-banknote-down.svg
+var _CashBanknoteDown string
+func CashBanknoteDown(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteDown, params...)
+}
+
 //go:embed cash-banknote-edit.svg
 var _CashBanknoteEdit string
 func CashBanknoteEdit(params ...icons.Params) string {
 	return icons.ApplyParams(_CashBanknoteEdit, params...)
+}
+
+//go:embed cash-banknote-exclamation.svg
+var _CashBanknoteExclamation string
+func CashBanknoteExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteExclamation, params...)
 }
 
 //go:embed cash-banknote-heart.svg
@@ -7340,10 +7694,88 @@ func CashBanknoteOff(params ...icons.Params) string {
 	return icons.ApplyParams(_CashBanknoteOff, params...)
 }
 
+//go:embed cash-banknote-pause.svg
+var _CashBanknotePause string
+func CashBanknotePause(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknotePause, params...)
+}
+
+//go:embed cash-banknote-pin.svg
+var _CashBanknotePin string
+func CashBanknotePin(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknotePin, params...)
+}
+
 //go:embed cash-banknote-plus.svg
 var _CashBanknotePlus string
 func CashBanknotePlus(params ...icons.Params) string {
 	return icons.ApplyParams(_CashBanknotePlus, params...)
+}
+
+//go:embed cash-banknote-question.svg
+var _CashBanknoteQuestion string
+func CashBanknoteQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteQuestion, params...)
+}
+
+//go:embed cash-banknote-search.svg
+var _CashBanknoteSearch string
+func CashBanknoteSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteSearch, params...)
+}
+
+//go:embed cash-banknote-share.svg
+var _CashBanknoteShare string
+func CashBanknoteShare(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteShare, params...)
+}
+
+//go:embed cash-banknote-star.svg
+var _CashBanknoteStar string
+func CashBanknoteStar(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteStar, params...)
+}
+
+//go:embed cash-banknote-up.svg
+var _CashBanknoteUp string
+func CashBanknoteUp(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteUp, params...)
+}
+
+//go:embed cash-banknote-x.svg
+var _CashBanknoteX string
+func CashBanknoteX(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBanknoteX, params...)
+}
+
+//go:embed cash-bolt.svg
+var _CashBolt string
+func CashBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_CashBolt, params...)
+}
+
+//go:embed cash-cancel.svg
+var _CashCancel string
+func CashCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_CashCancel, params...)
+}
+
+//go:embed cash-check.svg
+var _CashCheck string
+func CashCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_CashCheck, params...)
+}
+
+//go:embed cash-code.svg
+var _CashCode string
+func CashCode(params ...icons.Params) string {
+	return icons.ApplyParams(_CashCode, params...)
+}
+
+//go:embed cash-cog.svg
+var _CashCog string
+func CashCog(params ...icons.Params) string {
+	return icons.ApplyParams(_CashCog, params...)
 }
 
 //go:embed cash-coin.svg
@@ -7352,10 +7784,28 @@ func CashCoin(params ...icons.Params) string {
 	return icons.ApplyParams(_CashCoin, params...)
 }
 
+//go:embed cash-dollar.svg
+var _CashDollar string
+func CashDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_CashDollar, params...)
+}
+
+//go:embed cash-down.svg
+var _CashDown string
+func CashDown(params ...icons.Params) string {
+	return icons.ApplyParams(_CashDown, params...)
+}
+
 //go:embed cash-edit.svg
 var _CashEdit string
 func CashEdit(params ...icons.Params) string {
 	return icons.ApplyParams(_CashEdit, params...)
+}
+
+//go:embed cash-exclamation.svg
+var _CashExclamation string
+func CashExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_CashExclamation, params...)
 }
 
 //go:embed cash-heart.svg
@@ -7388,16 +7838,64 @@ func CashOff(params ...icons.Params) string {
 	return icons.ApplyParams(_CashOff, params...)
 }
 
+//go:embed cash-pause.svg
+var _CashPause string
+func CashPause(params ...icons.Params) string {
+	return icons.ApplyParams(_CashPause, params...)
+}
+
+//go:embed cash-pin.svg
+var _CashPin string
+func CashPin(params ...icons.Params) string {
+	return icons.ApplyParams(_CashPin, params...)
+}
+
 //go:embed cash-plus.svg
 var _CashPlus string
 func CashPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_CashPlus, params...)
 }
 
+//go:embed cash-question.svg
+var _CashQuestion string
+func CashQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_CashQuestion, params...)
+}
+
 //go:embed cash-register.svg
 var _CashRegister string
 func CashRegister(params ...icons.Params) string {
 	return icons.ApplyParams(_CashRegister, params...)
+}
+
+//go:embed cash-search.svg
+var _CashSearch string
+func CashSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_CashSearch, params...)
+}
+
+//go:embed cash-share.svg
+var _CashShare string
+func CashShare(params ...icons.Params) string {
+	return icons.ApplyParams(_CashShare, params...)
+}
+
+//go:embed cash-star.svg
+var _CashStar string
+func CashStar(params ...icons.Params) string {
+	return icons.ApplyParams(_CashStar, params...)
+}
+
+//go:embed cash-up.svg
+var _CashUp string
+func CashUp(params ...icons.Params) string {
+	return icons.ApplyParams(_CashUp, params...)
+}
+
+//go:embed cash-x.svg
+var _CashX string
+func CashX(params ...icons.Params) string {
+	return icons.ApplyParams(_CashX, params...)
 }
 
 //go:embed cast.svg
@@ -9272,6 +9770,12 @@ func ClockExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_ClockExclamation, params...)
 }
 
+//go:embed clock-flame.svg
+var _ClockFlame string
+func ClockFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_ClockFlame, params...)
+}
+
 //go:embed clock-heart.svg
 var _ClockHeart string
 func ClockHeart(params ...icons.Params) string {
@@ -9350,6 +9854,12 @@ func ClockHour9(params ...icons.Params) string {
 	return icons.ApplyParams(_ClockHour9, params...)
 }
 
+//go:embed clock-key.svg
+var _ClockKey string
+func ClockKey(params ...icons.Params) string {
+	return icons.ApplyParams(_ClockKey, params...)
+}
+
 //go:embed clock-minus.svg
 var _ClockMinus string
 func ClockMinus(params ...icons.Params) string {
@@ -9414,6 +9924,12 @@ func ClockShare(params ...icons.Params) string {
 var _ClockShield string
 func ClockShield(params ...icons.Params) string {
 	return icons.ApplyParams(_ClockShield, params...)
+}
+
+//go:embed clock-spark.svg
+var _ClockSpark string
+func ClockSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_ClockSpark, params...)
 }
 
 //go:embed clock-star.svg
@@ -9530,6 +10046,12 @@ func CloudExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_CloudExclamation, params...)
 }
 
+//go:embed cloud-flame.svg
+var _CloudFlame string
+func CloudFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_CloudFlame, params...)
+}
+
 //go:embed cloud-fog.svg
 var _CloudFog string
 func CloudFog(params ...icons.Params) string {
@@ -9540,6 +10062,12 @@ func CloudFog(params ...icons.Params) string {
 var _CloudHeart string
 func CloudHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_CloudHeart, params...)
+}
+
+//go:embed cloud-key.svg
+var _CloudKey string
+func CloudKey(params ...icons.Params) string {
+	return icons.ApplyParams(_CloudKey, params...)
 }
 
 //go:embed cloud-lock.svg
@@ -9618,6 +10146,12 @@ func CloudShare(params ...icons.Params) string {
 var _CloudSnow string
 func CloudSnow(params ...icons.Params) string {
 	return icons.ApplyParams(_CloudSnow, params...)
+}
+
+//go:embed cloud-spark.svg
+var _CloudSpark string
+func CloudSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_CloudSpark, params...)
 }
 
 //go:embed cloud-star.svg
@@ -11000,6 +11534,30 @@ func Database(params ...icons.Params) string {
 	return icons.ApplyParams(_Database, params...)
 }
 
+//go:embed database-bolt.svg
+var _DatabaseBolt string
+func DatabaseBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseBolt, params...)
+}
+
+//go:embed database-cancel.svg
+var _DatabaseCancel string
+func DatabaseCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseCancel, params...)
+}
+
+//go:embed database-check.svg
+var _DatabaseCheck string
+func DatabaseCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseCheck, params...)
+}
+
+//go:embed database-code.svg
+var _DatabaseCode string
+func DatabaseCode(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseCode, params...)
+}
+
 //go:embed database-cog.svg
 var _DatabaseCog string
 func DatabaseCog(params ...icons.Params) string {
@@ -11010,6 +11568,12 @@ func DatabaseCog(params ...icons.Params) string {
 var _DatabaseDollar string
 func DatabaseDollar(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabaseDollar, params...)
+}
+
+//go:embed database-down.svg
+var _DatabaseDown string
+func DatabaseDown(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseDown, params...)
 }
 
 //go:embed database-edit.svg
@@ -11060,10 +11624,28 @@ func DatabaseOff(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabaseOff, params...)
 }
 
+//go:embed database-pause.svg
+var _DatabasePause string
+func DatabasePause(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabasePause, params...)
+}
+
+//go:embed database-pin.svg
+var _DatabasePin string
+func DatabasePin(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabasePin, params...)
+}
+
 //go:embed database-plus.svg
 var _DatabasePlus string
 func DatabasePlus(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabasePlus, params...)
+}
+
+//go:embed database-question.svg
+var _DatabaseQuestion string
+func DatabaseQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseQuestion, params...)
 }
 
 //go:embed database-search.svg
@@ -11088,6 +11670,12 @@ func DatabaseSmile(params ...icons.Params) string {
 var _DatabaseStar string
 func DatabaseStar(params ...icons.Params) string {
 	return icons.ApplyParams(_DatabaseStar, params...)
+}
+
+//go:embed database-up.svg
+var _DatabaseUp string
+func DatabaseUp(params ...icons.Params) string {
+	return icons.ApplyParams(_DatabaseUp, params...)
 }
 
 //go:embed database-x.svg
@@ -11306,10 +11894,22 @@ func DeviceDesktopExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceDesktopExclamation, params...)
 }
 
+//go:embed device-desktop-flame.svg
+var _DeviceDesktopFlame string
+func DeviceDesktopFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceDesktopFlame, params...)
+}
+
 //go:embed device-desktop-heart.svg
 var _DeviceDesktopHeart string
 func DeviceDesktopHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceDesktopHeart, params...)
+}
+
+//go:embed device-desktop-key.svg
+var _DeviceDesktopKey string
+func DeviceDesktopKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceDesktopKey, params...)
 }
 
 //go:embed device-desktop-minus.svg
@@ -11358,6 +11958,12 @@ func DeviceDesktopSearch(params ...icons.Params) string {
 var _DeviceDesktopShare string
 func DeviceDesktopShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceDesktopShare, params...)
+}
+
+//go:embed device-desktop-spark.svg
+var _DeviceDesktopSpark string
+func DeviceDesktopSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceDesktopSpark, params...)
 }
 
 //go:embed device-desktop-star.svg
@@ -11462,10 +12068,22 @@ func DeviceImacExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceImacExclamation, params...)
 }
 
+//go:embed device-imac-flame.svg
+var _DeviceImacFlame string
+func DeviceImacFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceImacFlame, params...)
+}
+
 //go:embed device-imac-heart.svg
 var _DeviceImacHeart string
 func DeviceImacHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceImacHeart, params...)
+}
+
+//go:embed device-imac-key.svg
+var _DeviceImacKey string
+func DeviceImacKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceImacKey, params...)
 }
 
 //go:embed device-imac-minus.svg
@@ -11514,6 +12132,12 @@ func DeviceImacSearch(params ...icons.Params) string {
 var _DeviceImacShare string
 func DeviceImacShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceImacShare, params...)
+}
+
+//go:embed device-imac-spark.svg
+var _DeviceImacSpark string
+func DeviceImacSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceImacSpark, params...)
 }
 
 //go:embed device-imac-star.svg
@@ -11588,6 +12212,12 @@ func DeviceIpadExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadExclamation, params...)
 }
 
+//go:embed device-ipad-flame.svg
+var _DeviceIpadFlame string
+func DeviceIpadFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadFlame, params...)
+}
+
 //go:embed device-ipad-heart.svg
 var _DeviceIpadHeart string
 func DeviceIpadHeart(params ...icons.Params) string {
@@ -11648,10 +12278,22 @@ func DeviceIpadHorizontalExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadHorizontalExclamation, params...)
 }
 
+//go:embed device-ipad-horizontal-flame.svg
+var _DeviceIpadHorizontalFlame string
+func DeviceIpadHorizontalFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadHorizontalFlame, params...)
+}
+
 //go:embed device-ipad-horizontal-heart.svg
 var _DeviceIpadHorizontalHeart string
 func DeviceIpadHorizontalHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadHorizontalHeart, params...)
+}
+
+//go:embed device-ipad-horizontal-key.svg
+var _DeviceIpadHorizontalKey string
+func DeviceIpadHorizontalKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadHorizontalKey, params...)
 }
 
 //go:embed device-ipad-horizontal-minus.svg
@@ -11702,6 +12344,12 @@ func DeviceIpadHorizontalShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadHorizontalShare, params...)
 }
 
+//go:embed device-ipad-horizontal-spark.svg
+var _DeviceIpadHorizontalSpark string
+func DeviceIpadHorizontalSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadHorizontalSpark, params...)
+}
+
 //go:embed device-ipad-horizontal-star.svg
 var _DeviceIpadHorizontalStar string
 func DeviceIpadHorizontalStar(params ...icons.Params) string {
@@ -11718,6 +12366,12 @@ func DeviceIpadHorizontalUp(params ...icons.Params) string {
 var _DeviceIpadHorizontalX string
 func DeviceIpadHorizontalX(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadHorizontalX, params...)
+}
+
+//go:embed device-ipad-key.svg
+var _DeviceIpadKey string
+func DeviceIpadKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadKey, params...)
 }
 
 //go:embed device-ipad-minus.svg
@@ -11766,6 +12420,12 @@ func DeviceIpadSearch(params ...icons.Params) string {
 var _DeviceIpadShare string
 func DeviceIpadShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceIpadShare, params...)
+}
+
+//go:embed device-ipad-spark.svg
+var _DeviceIpadSpark string
+func DeviceIpadSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceIpadSpark, params...)
 }
 
 //go:embed device-ipad-star.svg
@@ -11864,10 +12524,22 @@ func DeviceMobileExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceMobileExclamation, params...)
 }
 
+//go:embed device-mobile-flame.svg
+var _DeviceMobileFlame string
+func DeviceMobileFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceMobileFlame, params...)
+}
+
 //go:embed device-mobile-heart.svg
 var _DeviceMobileHeart string
 func DeviceMobileHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceMobileHeart, params...)
+}
+
+//go:embed device-mobile-key.svg
+var _DeviceMobileKey string
+func DeviceMobileKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceMobileKey, params...)
 }
 
 //go:embed device-mobile-message.svg
@@ -11928,6 +12600,12 @@ func DeviceMobileSearch(params ...icons.Params) string {
 var _DeviceMobileShare string
 func DeviceMobileShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceMobileShare, params...)
+}
+
+//go:embed device-mobile-spark.svg
+var _DeviceMobileSpark string
+func DeviceMobileSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceMobileSpark, params...)
 }
 
 //go:embed device-mobile-star.svg
@@ -12080,10 +12758,22 @@ func DeviceTabletExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceTabletExclamation, params...)
 }
 
+//go:embed device-tablet-flame.svg
+var _DeviceTabletFlame string
+func DeviceTabletFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceTabletFlame, params...)
+}
+
 //go:embed device-tablet-heart.svg
 var _DeviceTabletHeart string
 func DeviceTabletHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceTabletHeart, params...)
+}
+
+//go:embed device-tablet-key.svg
+var _DeviceTabletKey string
+func DeviceTabletKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceTabletKey, params...)
 }
 
 //go:embed device-tablet-minus.svg
@@ -12132,6 +12822,12 @@ func DeviceTabletSearch(params ...icons.Params) string {
 var _DeviceTabletShare string
 func DeviceTabletShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceTabletShare, params...)
+}
+
+//go:embed device-tablet-spark.svg
+var _DeviceTabletSpark string
+func DeviceTabletSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceTabletSpark, params...)
 }
 
 //go:embed device-tablet-star.svg
@@ -12248,10 +12944,22 @@ func DeviceWatchExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceWatchExclamation, params...)
 }
 
+//go:embed device-watch-flame.svg
+var _DeviceWatchFlame string
+func DeviceWatchFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceWatchFlame, params...)
+}
+
 //go:embed device-watch-heart.svg
 var _DeviceWatchHeart string
 func DeviceWatchHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceWatchHeart, params...)
+}
+
+//go:embed device-watch-key.svg
+var _DeviceWatchKey string
+func DeviceWatchKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceWatchKey, params...)
 }
 
 //go:embed device-watch-minus.svg
@@ -12300,6 +13008,12 @@ func DeviceWatchSearch(params ...icons.Params) string {
 var _DeviceWatchShare string
 func DeviceWatchShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DeviceWatchShare, params...)
+}
+
+//go:embed device-watch-spark.svg
+var _DeviceWatchSpark string
+func DeviceWatchSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DeviceWatchSpark, params...)
 }
 
 //go:embed device-watch-star.svg
@@ -12398,10 +13112,22 @@ func DevicesExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DevicesExclamation, params...)
 }
 
+//go:embed devices-flame.svg
+var _DevicesFlame string
+func DevicesFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DevicesFlame, params...)
+}
+
 //go:embed devices-heart.svg
 var _DevicesHeart string
 func DevicesHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DevicesHeart, params...)
+}
+
+//go:embed devices-key.svg
+var _DevicesKey string
+func DevicesKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DevicesKey, params...)
 }
 
 //go:embed devices-minus.svg
@@ -12462,6 +13188,12 @@ func DevicesSearch(params ...icons.Params) string {
 var _DevicesShare string
 func DevicesShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DevicesShare, params...)
+}
+
+//go:embed devices-spark.svg
+var _DevicesSpark string
+func DevicesSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DevicesSpark, params...)
 }
 
 //go:embed devices-star.svg
@@ -12878,6 +13610,12 @@ func DropletExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_DropletExclamation, params...)
 }
 
+//go:embed droplet-flame.svg
+var _DropletFlame string
+func DropletFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_DropletFlame, params...)
+}
+
 //go:embed droplet-half.svg
 var _DropletHalf string
 func DropletHalf(params ...icons.Params) string {
@@ -12894,6 +13632,12 @@ func DropletHalf2(params ...icons.Params) string {
 var _DropletHeart string
 func DropletHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_DropletHeart, params...)
+}
+
+//go:embed droplet-key.svg
+var _DropletKey string
+func DropletKey(params ...icons.Params) string {
+	return icons.ApplyParams(_DropletKey, params...)
 }
 
 //go:embed droplet-minus.svg
@@ -12942,6 +13686,12 @@ func DropletSearch(params ...icons.Params) string {
 var _DropletShare string
 func DropletShare(params ...icons.Params) string {
 	return icons.ApplyParams(_DropletShare, params...)
+}
+
+//go:embed droplet-spark.svg
+var _DropletSpark string
+func DropletSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_DropletSpark, params...)
 }
 
 //go:embed droplet-star.svg
@@ -13418,10 +14168,22 @@ func EyeExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_EyeExclamation, params...)
 }
 
+//go:embed eye-flame.svg
+var _EyeFlame string
+func EyeFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_EyeFlame, params...)
+}
+
 //go:embed eye-heart.svg
 var _EyeHeart string
 func EyeHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_EyeHeart, params...)
+}
+
+//go:embed eye-key.svg
+var _EyeKey string
+func EyeKey(params ...icons.Params) string {
+	return icons.ApplyParams(_EyeKey, params...)
 }
 
 //go:embed eye-minus.svg
@@ -13976,6 +14738,102 @@ func FileTextAi(params ...icons.Params) string {
 	return icons.ApplyParams(_FileTextAi, params...)
 }
 
+//go:embed file-text-bolt.svg
+var _FileTextBolt string
+func FileTextBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextBolt, params...)
+}
+
+//go:embed file-text-cancel.svg
+var _FileTextCancel string
+func FileTextCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextCancel, params...)
+}
+
+//go:embed file-text-check.svg
+var _FileTextCheck string
+func FileTextCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextCheck, params...)
+}
+
+//go:embed file-text-code.svg
+var _FileTextCode string
+func FileTextCode(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextCode, params...)
+}
+
+//go:embed file-text-cog.svg
+var _FileTextCog string
+func FileTextCog(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextCog, params...)
+}
+
+//go:embed file-text-dollar.svg
+var _FileTextDollar string
+func FileTextDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextDollar, params...)
+}
+
+//go:embed file-text-down.svg
+var _FileTextDown string
+func FileTextDown(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextDown, params...)
+}
+
+//go:embed file-text-exclamation.svg
+var _FileTextExclamation string
+func FileTextExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextExclamation, params...)
+}
+
+//go:embed file-text-heart.svg
+var _FileTextHeart string
+func FileTextHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextHeart, params...)
+}
+
+//go:embed file-text-minus.svg
+var _FileTextMinus string
+func FileTextMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextMinus, params...)
+}
+
+//go:embed file-text-pause.svg
+var _FileTextPause string
+func FileTextPause(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextPause, params...)
+}
+
+//go:embed file-text-pin.svg
+var _FileTextPin string
+func FileTextPin(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextPin, params...)
+}
+
+//go:embed file-text-plus.svg
+var _FileTextPlus string
+func FileTextPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextPlus, params...)
+}
+
+//go:embed file-text-question.svg
+var _FileTextQuestion string
+func FileTextQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextQuestion, params...)
+}
+
+//go:embed file-text-search.svg
+var _FileTextSearch string
+func FileTextSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextSearch, params...)
+}
+
+//go:embed file-text-share.svg
+var _FileTextShare string
+func FileTextShare(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextShare, params...)
+}
+
 //go:embed file-text-shield.svg
 var _FileTextShield string
 func FileTextShield(params ...icons.Params) string {
@@ -13986,6 +14844,24 @@ func FileTextShield(params ...icons.Params) string {
 var _FileTextSpark string
 func FileTextSpark(params ...icons.Params) string {
 	return icons.ApplyParams(_FileTextSpark, params...)
+}
+
+//go:embed file-text-star.svg
+var _FileTextStar string
+func FileTextStar(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextStar, params...)
+}
+
+//go:embed file-text-up.svg
+var _FileTextUp string
+func FileTextUp(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextUp, params...)
+}
+
+//go:embed file-text-x.svg
+var _FileTextX string
+func FileTextX(params ...icons.Params) string {
+	return icons.ApplyParams(_FileTextX, params...)
 }
 
 //go:embed file-time.svg
@@ -14258,6 +15134,18 @@ func Filter2Exclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_Filter2Exclamation, params...)
 }
 
+//go:embed filter-2-flame.svg
+var _Filter2Flame string
+func Filter2Flame(params ...icons.Params) string {
+	return icons.ApplyParams(_Filter2Flame, params...)
+}
+
+//go:embed filter-2-key.svg
+var _Filter2Key string
+func Filter2Key(params ...icons.Params) string {
+	return icons.ApplyParams(_Filter2Key, params...)
+}
+
 //go:embed filter-2-minus.svg
 var _Filter2Minus string
 func Filter2Minus(params ...icons.Params) string {
@@ -14378,10 +15266,22 @@ func FilterExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_FilterExclamation, params...)
 }
 
+//go:embed filter-flame.svg
+var _FilterFlame string
+func FilterFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_FilterFlame, params...)
+}
+
 //go:embed filter-heart.svg
 var _FilterHeart string
 func FilterHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_FilterHeart, params...)
+}
+
+//go:embed filter-key.svg
+var _FilterKey string
+func FilterKey(params ...icons.Params) string {
+	return icons.ApplyParams(_FilterKey, params...)
 }
 
 //go:embed filter-minus.svg
@@ -14648,10 +15548,22 @@ func FlagExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_FlagExclamation, params...)
 }
 
+//go:embed flag-flame.svg
+var _FlagFlame string
+func FlagFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_FlagFlame, params...)
+}
+
 //go:embed flag-heart.svg
 var _FlagHeart string
 func FlagHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_FlagHeart, params...)
+}
+
+//go:embed flag-key.svg
+var _FlagKey string
+func FlagKey(params ...icons.Params) string {
+	return icons.ApplyParams(_FlagKey, params...)
 }
 
 //go:embed flag-minus.svg
@@ -14930,10 +15842,22 @@ func FolderExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderExclamation, params...)
 }
 
+//go:embed folder-flame.svg
+var _FolderFlame string
+func FolderFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderFlame, params...)
+}
+
 //go:embed folder-heart.svg
 var _FolderHeart string
 func FolderHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderHeart, params...)
+}
+
+//go:embed folder-key.svg
+var _FolderKey string
+func FolderKey(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderKey, params...)
 }
 
 //go:embed folder-lock.svg
@@ -15000,6 +15924,12 @@ func FolderSearch(params ...icons.Params) string {
 var _FolderShare string
 func FolderShare(params ...icons.Params) string {
 	return icons.ApplyParams(_FolderShare, params...)
+}
+
+//go:embed folder-spark.svg
+var _FolderSpark string
+func FolderSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_FolderSpark, params...)
 }
 
 //go:embed folder-sparkle.svg
@@ -16058,10 +16988,22 @@ func HeartExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_HeartExclamation, params...)
 }
 
+//go:embed heart-flame.svg
+var _HeartFlame string
+func HeartFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_HeartFlame, params...)
+}
+
 //go:embed heart-handshake.svg
 var _HeartHandshake string
 func HeartHandshake(params ...icons.Params) string {
 	return icons.ApplyParams(_HeartHandshake, params...)
+}
+
+//go:embed heart-key.svg
+var _HeartKey string
+func HeartKey(params ...icons.Params) string {
+	return icons.ApplyParams(_HeartKey, params...)
 }
 
 //go:embed heart-minus.svg
@@ -16700,6 +17642,12 @@ func HomeExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_HomeExclamation, params...)
 }
 
+//go:embed home-flame.svg
+var _HomeFlame string
+func HomeFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_HomeFlame, params...)
+}
+
 //go:embed home-hand.svg
 var _HomeHand string
 func HomeHand(params ...icons.Params) string {
@@ -16716,6 +17664,12 @@ func HomeHeart(params ...icons.Params) string {
 var _HomeInfinity string
 func HomeInfinity(params ...icons.Params) string {
 	return icons.ApplyParams(_HomeInfinity, params...)
+}
+
+//go:embed home-key.svg
+var _HomeKey string
+func HomeKey(params ...icons.Params) string {
+	return icons.ApplyParams(_HomeKey, params...)
 }
 
 //go:embed home-link.svg
@@ -18428,6 +19382,60 @@ func Link(params ...icons.Params) string {
 	return icons.ApplyParams(_Link, params...)
 }
 
+//go:embed link-bolt.svg
+var _LinkBolt string
+func LinkBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkBolt, params...)
+}
+
+//go:embed link-cancel.svg
+var _LinkCancel string
+func LinkCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkCancel, params...)
+}
+
+//go:embed link-check.svg
+var _LinkCheck string
+func LinkCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkCheck, params...)
+}
+
+//go:embed link-code.svg
+var _LinkCode string
+func LinkCode(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkCode, params...)
+}
+
+//go:embed link-cog.svg
+var _LinkCog string
+func LinkCog(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkCog, params...)
+}
+
+//go:embed link-dollar.svg
+var _LinkDollar string
+func LinkDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkDollar, params...)
+}
+
+//go:embed link-down.svg
+var _LinkDown string
+func LinkDown(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkDown, params...)
+}
+
+//go:embed link-exclamation.svg
+var _LinkExclamation string
+func LinkExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkExclamation, params...)
+}
+
+//go:embed link-heart.svg
+var _LinkHeart string
+func LinkHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkHeart, params...)
+}
+
 //go:embed link-minus.svg
 var _LinkMinus string
 func LinkMinus(params ...icons.Params) string {
@@ -18440,10 +19448,58 @@ func LinkOff(params ...icons.Params) string {
 	return icons.ApplyParams(_LinkOff, params...)
 }
 
+//go:embed link-pause.svg
+var _LinkPause string
+func LinkPause(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkPause, params...)
+}
+
+//go:embed link-pin.svg
+var _LinkPin string
+func LinkPin(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkPin, params...)
+}
+
 //go:embed link-plus.svg
 var _LinkPlus string
 func LinkPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_LinkPlus, params...)
+}
+
+//go:embed link-question.svg
+var _LinkQuestion string
+func LinkQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkQuestion, params...)
+}
+
+//go:embed link-search.svg
+var _LinkSearch string
+func LinkSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkSearch, params...)
+}
+
+//go:embed link-share.svg
+var _LinkShare string
+func LinkShare(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkShare, params...)
+}
+
+//go:embed link-star.svg
+var _LinkStar string
+func LinkStar(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkStar, params...)
+}
+
+//go:embed link-up.svg
+var _LinkUp string
+func LinkUp(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkUp, params...)
+}
+
+//go:embed link-x.svg
+var _LinkX string
+func LinkX(params ...icons.Params) string {
+	return icons.ApplyParams(_LinkX, params...)
 }
 
 //go:embed list.svg
@@ -18608,10 +19664,22 @@ func LocationExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_LocationExclamation, params...)
 }
 
+//go:embed location-flame.svg
+var _LocationFlame string
+func LocationFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_LocationFlame, params...)
+}
+
 //go:embed location-heart.svg
 var _LocationHeart string
 func LocationHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_LocationHeart, params...)
+}
+
+//go:embed location-key.svg
+var _LocationKey string
+func LocationKey(params ...icons.Params) string {
+	return icons.ApplyParams(_LocationKey, params...)
 }
 
 //go:embed location-minus.svg
@@ -18660,6 +19728,12 @@ func LocationSearch(params ...icons.Params) string {
 var _LocationShare string
 func LocationShare(params ...icons.Params) string {
 	return icons.ApplyParams(_LocationShare, params...)
+}
+
+//go:embed location-spark.svg
+var _LocationSpark string
+func LocationSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_LocationSpark, params...)
 }
 
 //go:embed location-star.svg
@@ -18752,10 +19826,22 @@ func LockExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_LockExclamation, params...)
 }
 
+//go:embed lock-flame.svg
+var _LockFlame string
+func LockFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_LockFlame, params...)
+}
+
 //go:embed lock-heart.svg
 var _LockHeart string
 func LockHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_LockHeart, params...)
+}
+
+//go:embed lock-key.svg
+var _LockKey string
+func LockKey(params ...icons.Params) string {
+	return icons.ApplyParams(_LockKey, params...)
 }
 
 //go:embed lock-minus.svg
@@ -18828,6 +19914,12 @@ func LockSearch(params ...icons.Params) string {
 var _LockShare string
 func LockShare(params ...icons.Params) string {
 	return icons.ApplyParams(_LockShare, params...)
+}
+
+//go:embed lock-spark.svg
+var _LockSpark string
+func LockSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_LockSpark, params...)
 }
 
 //go:embed lock-square.svg
@@ -19082,6 +20174,12 @@ func MailFast(params ...icons.Params) string {
 	return icons.ApplyParams(_MailFast, params...)
 }
 
+//go:embed mail-flame.svg
+var _MailFlame string
+func MailFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MailFlame, params...)
+}
+
 //go:embed mail-forward.svg
 var _MailForward string
 func MailForward(params ...icons.Params) string {
@@ -19092,6 +20190,12 @@ func MailForward(params ...icons.Params) string {
 var _MailHeart string
 func MailHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MailHeart, params...)
+}
+
+//go:embed mail-key.svg
+var _MailKey string
+func MailKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MailKey, params...)
 }
 
 //go:embed mail-minus.svg
@@ -19268,10 +20372,22 @@ func MapExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_MapExclamation, params...)
 }
 
+//go:embed map-flame.svg
+var _MapFlame string
+func MapFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MapFlame, params...)
+}
+
 //go:embed map-heart.svg
 var _MapHeart string
 func MapHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MapHeart, params...)
+}
+
+//go:embed map-key.svg
+var _MapKey string
+func MapKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MapKey, params...)
 }
 
 //go:embed map-lock.svg
@@ -19364,10 +20480,22 @@ func MapPinExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_MapPinExclamation, params...)
 }
 
+//go:embed map-pin-flame.svg
+var _MapPinFlame string
+func MapPinFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MapPinFlame, params...)
+}
+
 //go:embed map-pin-heart.svg
 var _MapPinHeart string
 func MapPinHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MapPinHeart, params...)
+}
+
+//go:embed map-pin-key.svg
+var _MapPinKey string
+func MapPinKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MapPinKey, params...)
 }
 
 //go:embed map-pin-minus.svg
@@ -19416,6 +20544,12 @@ func MapPinSearch(params ...icons.Params) string {
 var _MapPinShare string
 func MapPinShare(params ...icons.Params) string {
 	return icons.ApplyParams(_MapPinShare, params...)
+}
+
+//go:embed map-pin-spark.svg
+var _MapPinSpark string
+func MapPinSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_MapPinSpark, params...)
 }
 
 //go:embed map-pin-star.svg
@@ -19494,6 +20628,12 @@ func MapShield(params ...icons.Params) string {
 var _MapSouth string
 func MapSouth(params ...icons.Params) string {
 	return icons.ApplyParams(_MapSouth, params...)
+}
+
+//go:embed map-spark.svg
+var _MapSpark string
+func MapSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_MapSpark, params...)
 }
 
 //go:embed map-star.svg
@@ -20024,10 +21164,22 @@ func Message2Exclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2Exclamation, params...)
 }
 
+//go:embed message-2-flame.svg
+var _Message2Flame string
+func Message2Flame(params ...icons.Params) string {
+	return icons.ApplyParams(_Message2Flame, params...)
+}
+
 //go:embed message-2-heart.svg
 var _Message2Heart string
 func Message2Heart(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2Heart, params...)
+}
+
+//go:embed message-2-key.svg
+var _Message2Key string
+func Message2Key(params ...icons.Params) string {
+	return icons.ApplyParams(_Message2Key, params...)
 }
 
 //go:embed message-2-minus.svg
@@ -20076,6 +21228,12 @@ func Message2Search(params ...icons.Params) string {
 var _Message2Share string
 func Message2Share(params ...icons.Params) string {
 	return icons.ApplyParams(_Message2Share, params...)
+}
+
+//go:embed message-2-spark.svg
+var _Message2Spark string
+func Message2Spark(params ...icons.Params) string {
+	return icons.ApplyParams(_Message2Spark, params...)
 }
 
 //go:embed message-2-sparkle.svg
@@ -20186,10 +21344,22 @@ func MessageCircleExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageCircleExclamation, params...)
 }
 
+//go:embed message-circle-flame.svg
+var _MessageCircleFlame string
+func MessageCircleFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageCircleFlame, params...)
+}
+
 //go:embed message-circle-heart.svg
 var _MessageCircleHeart string
 func MessageCircleHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageCircleHeart, params...)
+}
+
+//go:embed message-circle-key.svg
+var _MessageCircleKey string
+func MessageCircleKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageCircleKey, params...)
 }
 
 //go:embed message-circle-minus.svg
@@ -20238,6 +21408,12 @@ func MessageCircleSearch(params ...icons.Params) string {
 var _MessageCircleShare string
 func MessageCircleShare(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageCircleShare, params...)
+}
+
+//go:embed message-circle-spark.svg
+var _MessageCircleSpark string
+func MessageCircleSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageCircleSpark, params...)
 }
 
 //go:embed message-circle-star.svg
@@ -20300,6 +21476,12 @@ func MessageExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageExclamation, params...)
 }
 
+//go:embed message-flame.svg
+var _MessageFlame string
+func MessageFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageFlame, params...)
+}
+
 //go:embed message-forward.svg
 var _MessageForward string
 func MessageForward(params ...icons.Params) string {
@@ -20310,6 +21492,12 @@ func MessageForward(params ...icons.Params) string {
 var _MessageHeart string
 func MessageHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageHeart, params...)
+}
+
+//go:embed message-key.svg
+var _MessageKey string
+func MessageKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageKey, params...)
 }
 
 //go:embed message-language.svg
@@ -20376,6 +21564,12 @@ func MessageSearch(params ...icons.Params) string {
 var _MessageShare string
 func MessageShare(params ...icons.Params) string {
 	return icons.ApplyParams(_MessageShare, params...)
+}
+
+//go:embed message-spark.svg
+var _MessageSpark string
+func MessageSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_MessageSpark, params...)
 }
 
 //go:embed message-sparkle.svg
@@ -21170,10 +22364,22 @@ func MusicExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_MusicExclamation, params...)
 }
 
+//go:embed music-flame.svg
+var _MusicFlame string
+func MusicFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_MusicFlame, params...)
+}
+
 //go:embed music-heart.svg
 var _MusicHeart string
 func MusicHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_MusicHeart, params...)
+}
+
+//go:embed music-key.svg
+var _MusicKey string
+func MusicKey(params ...icons.Params) string {
+	return icons.ApplyParams(_MusicKey, params...)
 }
 
 //go:embed music-minus.svg
@@ -21222,6 +22428,12 @@ func MusicSearch(params ...icons.Params) string {
 var _MusicShare string
 func MusicShare(params ...icons.Params) string {
 	return icons.ApplyParams(_MusicShare, params...)
+}
+
+//go:embed music-spark.svg
+var _MusicSpark string
+func MusicSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_MusicSpark, params...)
 }
 
 //go:embed music-star.svg
@@ -21308,10 +22520,22 @@ func NavigationExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_NavigationExclamation, params...)
 }
 
+//go:embed navigation-flame.svg
+var _NavigationFlame string
+func NavigationFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_NavigationFlame, params...)
+}
+
 //go:embed navigation-heart.svg
 var _NavigationHeart string
 func NavigationHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_NavigationHeart, params...)
+}
+
+//go:embed navigation-key.svg
+var _NavigationKey string
+func NavigationKey(params ...icons.Params) string {
+	return icons.ApplyParams(_NavigationKey, params...)
 }
 
 //go:embed navigation-minus.svg
@@ -21372,6 +22596,12 @@ func NavigationShare(params ...icons.Params) string {
 var _NavigationSouth string
 func NavigationSouth(params ...icons.Params) string {
 	return icons.ApplyParams(_NavigationSouth, params...)
+}
+
+//go:embed navigation-spark.svg
+var _NavigationSpark string
+func NavigationSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_NavigationSpark, params...)
 }
 
 //go:embed navigation-star.svg
@@ -22682,10 +23912,22 @@ func PencilExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_PencilExclamation, params...)
 }
 
+//go:embed pencil-flame.svg
+var _PencilFlame string
+func PencilFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilFlame, params...)
+}
+
 //go:embed pencil-heart.svg
 var _PencilHeart string
 func PencilHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_PencilHeart, params...)
+}
+
+//go:embed pencil-key.svg
+var _PencilKey string
+func PencilKey(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilKey, params...)
 }
 
 //go:embed pencil-minus.svg
@@ -22740,6 +23982,12 @@ func PencilSearch(params ...icons.Params) string {
 var _PencilShare string
 func PencilShare(params ...icons.Params) string {
 	return icons.ApplyParams(_PencilShare, params...)
+}
+
+//go:embed pencil-spark.svg
+var _PencilSpark string
+func PencilSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_PencilSpark, params...)
 }
 
 //go:embed pencil-star.svg
@@ -23186,6 +24434,12 @@ func PhotoExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_PhotoExclamation, params...)
 }
 
+//go:embed photo-flame.svg
+var _PhotoFlame string
+func PhotoFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_PhotoFlame, params...)
+}
+
 //go:embed photo-heart.svg
 var _PhotoHeart string
 func PhotoHeart(params ...icons.Params) string {
@@ -23196,6 +24450,12 @@ func PhotoHeart(params ...icons.Params) string {
 var _PhotoHexagon string
 func PhotoHexagon(params ...icons.Params) string {
 	return icons.ApplyParams(_PhotoHexagon, params...)
+}
+
+//go:embed photo-key.svg
+var _PhotoKey string
+func PhotoKey(params ...icons.Params) string {
+	return icons.ApplyParams(_PhotoKey, params...)
 }
 
 //go:embed photo-minus.svg
@@ -23954,10 +25214,22 @@ func PointerExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_PointerExclamation, params...)
 }
 
+//go:embed pointer-flame.svg
+var _PointerFlame string
+func PointerFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_PointerFlame, params...)
+}
+
 //go:embed pointer-heart.svg
 var _PointerHeart string
 func PointerHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_PointerHeart, params...)
+}
+
+//go:embed pointer-key.svg
+var _PointerKey string
+func PointerKey(params ...icons.Params) string {
+	return icons.ApplyParams(_PointerKey, params...)
 }
 
 //go:embed pointer-minus.svg
@@ -24006,6 +25278,12 @@ func PointerSearch(params ...icons.Params) string {
 var _PointerShare string
 func PointerShare(params ...icons.Params) string {
 	return icons.ApplyParams(_PointerShare, params...)
+}
+
+//go:embed pointer-spark.svg
+var _PointerSpark string
+func PointerSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_PointerSpark, params...)
 }
 
 //go:embed pointer-star.svg
@@ -25820,10 +27098,22 @@ func SettingsExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_SettingsExclamation, params...)
 }
 
+//go:embed settings-flame.svg
+var _SettingsFlame string
+func SettingsFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_SettingsFlame, params...)
+}
+
 //go:embed settings-heart.svg
 var _SettingsHeart string
 func SettingsHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_SettingsHeart, params...)
+}
+
+//go:embed settings-key.svg
+var _SettingsKey string
+func SettingsKey(params ...icons.Params) string {
+	return icons.ApplyParams(_SettingsKey, params...)
 }
 
 //go:embed settings-minus.svg
@@ -26030,6 +27320,12 @@ func ShieldExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_ShieldExclamation, params...)
 }
 
+//go:embed shield-flame.svg
+var _ShieldFlame string
+func ShieldFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_ShieldFlame, params...)
+}
+
 //go:embed shield-half.svg
 var _ShieldHalf string
 func ShieldHalf(params ...icons.Params) string {
@@ -26040,6 +27336,12 @@ func ShieldHalf(params ...icons.Params) string {
 var _ShieldHeart string
 func ShieldHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_ShieldHeart, params...)
+}
+
+//go:embed shield-key.svg
+var _ShieldKey string
+func ShieldKey(params ...icons.Params) string {
+	return icons.ApplyParams(_ShieldKey, params...)
 }
 
 //go:embed shield-lock.svg
@@ -26094,6 +27396,12 @@ func ShieldSearch(params ...icons.Params) string {
 var _ShieldShare string
 func ShieldShare(params ...icons.Params) string {
 	return icons.ApplyParams(_ShieldShare, params...)
+}
+
+//go:embed shield-spark.svg
+var _ShieldSpark string
+func ShieldSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_ShieldSpark, params...)
 }
 
 //go:embed shield-star.svg
@@ -26162,16 +27470,52 @@ func ShoppingBag(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBag, params...)
 }
 
+//go:embed shopping-bag-bolt.svg
+var _ShoppingBagBolt string
+func ShoppingBagBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagBolt, params...)
+}
+
+//go:embed shopping-bag-cancel.svg
+var _ShoppingBagCancel string
+func ShoppingBagCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagCancel, params...)
+}
+
 //go:embed shopping-bag-check.svg
 var _ShoppingBagCheck string
 func ShoppingBagCheck(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBagCheck, params...)
 }
 
+//go:embed shopping-bag-code.svg
+var _ShoppingBagCode string
+func ShoppingBagCode(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagCode, params...)
+}
+
+//go:embed shopping-bag-cog.svg
+var _ShoppingBagCog string
+func ShoppingBagCog(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagCog, params...)
+}
+
 //go:embed shopping-bag-discount.svg
 var _ShoppingBagDiscount string
 func ShoppingBagDiscount(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBagDiscount, params...)
+}
+
+//go:embed shopping-bag-dollar.svg
+var _ShoppingBagDollar string
+func ShoppingBagDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagDollar, params...)
+}
+
+//go:embed shopping-bag-down.svg
+var _ShoppingBagDown string
+func ShoppingBagDown(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagDown, params...)
 }
 
 //go:embed shopping-bag-edit.svg
@@ -26198,16 +27542,52 @@ func ShoppingBagMinus(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBagMinus, params...)
 }
 
+//go:embed shopping-bag-pause.svg
+var _ShoppingBagPause string
+func ShoppingBagPause(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagPause, params...)
+}
+
+//go:embed shopping-bag-pin.svg
+var _ShoppingBagPin string
+func ShoppingBagPin(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagPin, params...)
+}
+
 //go:embed shopping-bag-plus.svg
 var _ShoppingBagPlus string
 func ShoppingBagPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBagPlus, params...)
 }
 
+//go:embed shopping-bag-question.svg
+var _ShoppingBagQuestion string
+func ShoppingBagQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagQuestion, params...)
+}
+
 //go:embed shopping-bag-search.svg
 var _ShoppingBagSearch string
 func ShoppingBagSearch(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingBagSearch, params...)
+}
+
+//go:embed shopping-bag-share.svg
+var _ShoppingBagShare string
+func ShoppingBagShare(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagShare, params...)
+}
+
+//go:embed shopping-bag-star.svg
+var _ShoppingBagStar string
+func ShoppingBagStar(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagStar, params...)
+}
+
+//go:embed shopping-bag-up.svg
+var _ShoppingBagUp string
+func ShoppingBagUp(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingBagUp, params...)
 }
 
 //go:embed shopping-bag-x.svg
@@ -26282,10 +27662,22 @@ func ShoppingCartExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingCartExclamation, params...)
 }
 
+//go:embed shopping-cart-flame.svg
+var _ShoppingCartFlame string
+func ShoppingCartFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingCartFlame, params...)
+}
+
 //go:embed shopping-cart-heart.svg
 var _ShoppingCartHeart string
 func ShoppingCartHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingCartHeart, params...)
+}
+
+//go:embed shopping-cart-key.svg
+var _ShoppingCartKey string
+func ShoppingCartKey(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingCartKey, params...)
 }
 
 //go:embed shopping-cart-minus.svg
@@ -26334,6 +27726,12 @@ func ShoppingCartSearch(params ...icons.Params) string {
 var _ShoppingCartShare string
 func ShoppingCartShare(params ...icons.Params) string {
 	return icons.ApplyParams(_ShoppingCartShare, params...)
+}
+
+//go:embed shopping-cart-spark.svg
+var _ShoppingCartSpark string
+func ShoppingCartSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_ShoppingCartSpark, params...)
 }
 
 //go:embed shopping-cart-star.svg
@@ -26468,10 +27866,22 @@ func Sitemap(params ...icons.Params) string {
 	return icons.ApplyParams(_Sitemap, params...)
 }
 
+//go:embed sitemap-minus.svg
+var _SitemapMinus string
+func SitemapMinus(params ...icons.Params) string {
+	return icons.ApplyParams(_SitemapMinus, params...)
+}
+
 //go:embed sitemap-off.svg
 var _SitemapOff string
 func SitemapOff(params ...icons.Params) string {
 	return icons.ApplyParams(_SitemapOff, params...)
+}
+
+//go:embed sitemap-plus.svg
+var _SitemapPlus string
+func SitemapPlus(params ...icons.Params) string {
+	return icons.ApplyParams(_SitemapPlus, params...)
 }
 
 //go:embed skateboard.svg
@@ -28292,6 +29702,36 @@ func TableAlias(params ...icons.Params) string {
 	return icons.ApplyParams(_TableAlias, params...)
 }
 
+//go:embed table-bolt.svg
+var _TableBolt string
+func TableBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_TableBolt, params...)
+}
+
+//go:embed table-cancel.svg
+var _TableCancel string
+func TableCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_TableCancel, params...)
+}
+
+//go:embed table-check.svg
+var _TableCheck string
+func TableCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_TableCheck, params...)
+}
+
+//go:embed table-code.svg
+var _TableCode string
+func TableCode(params ...icons.Params) string {
+	return icons.ApplyParams(_TableCode, params...)
+}
+
+//go:embed table-cog.svg
+var _TableCog string
+func TableCog(params ...icons.Params) string {
+	return icons.ApplyParams(_TableCog, params...)
+}
+
 //go:embed table-column.svg
 var _TableColumn string
 func TableColumn(params ...icons.Params) string {
@@ -28304,10 +29744,22 @@ func TableDashed(params ...icons.Params) string {
 	return icons.ApplyParams(_TableDashed, params...)
 }
 
+//go:embed table-dollar.svg
+var _TableDollar string
+func TableDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_TableDollar, params...)
+}
+
 //go:embed table-down.svg
 var _TableDown string
 func TableDown(params ...icons.Params) string {
 	return icons.ApplyParams(_TableDown, params...)
+}
+
+//go:embed table-exclamation.svg
+var _TableExclamation string
+func TableExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_TableExclamation, params...)
 }
 
 //go:embed table-export.svg
@@ -28346,16 +29798,40 @@ func TableOptions(params ...icons.Params) string {
 	return icons.ApplyParams(_TableOptions, params...)
 }
 
+//go:embed table-pause.svg
+var _TablePause string
+func TablePause(params ...icons.Params) string {
+	return icons.ApplyParams(_TablePause, params...)
+}
+
+//go:embed table-pin.svg
+var _TablePin string
+func TablePin(params ...icons.Params) string {
+	return icons.ApplyParams(_TablePin, params...)
+}
+
 //go:embed table-plus.svg
 var _TablePlus string
 func TablePlus(params ...icons.Params) string {
 	return icons.ApplyParams(_TablePlus, params...)
 }
 
+//go:embed table-question.svg
+var _TableQuestion string
+func TableQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_TableQuestion, params...)
+}
+
 //go:embed table-row.svg
 var _TableRow string
 func TableRow(params ...icons.Params) string {
 	return icons.ApplyParams(_TableRow, params...)
+}
+
+//go:embed table-search.svg
+var _TableSearch string
+func TableSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_TableSearch, params...)
 }
 
 //go:embed table-share.svg
@@ -28376,6 +29852,24 @@ func TableSpark(params ...icons.Params) string {
 	return icons.ApplyParams(_TableSpark, params...)
 }
 
+//go:embed table-star.svg
+var _TableStar string
+func TableStar(params ...icons.Params) string {
+	return icons.ApplyParams(_TableStar, params...)
+}
+
+//go:embed table-up.svg
+var _TableUp string
+func TableUp(params ...icons.Params) string {
+	return icons.ApplyParams(_TableUp, params...)
+}
+
+//go:embed table-x.svg
+var _TableX string
+func TableX(params ...icons.Params) string {
+	return icons.ApplyParams(_TableX, params...)
+}
+
 //go:embed tabs.svg
 var _Tabs string
 func Tabs(params ...icons.Params) string {
@@ -28386,6 +29880,60 @@ func Tabs(params ...icons.Params) string {
 var _Tag string
 func Tag(params ...icons.Params) string {
 	return icons.ApplyParams(_Tag, params...)
+}
+
+//go:embed tag-bolt.svg
+var _TagBolt string
+func TagBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_TagBolt, params...)
+}
+
+//go:embed tag-cancel.svg
+var _TagCancel string
+func TagCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_TagCancel, params...)
+}
+
+//go:embed tag-check.svg
+var _TagCheck string
+func TagCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_TagCheck, params...)
+}
+
+//go:embed tag-code.svg
+var _TagCode string
+func TagCode(params ...icons.Params) string {
+	return icons.ApplyParams(_TagCode, params...)
+}
+
+//go:embed tag-cog.svg
+var _TagCog string
+func TagCog(params ...icons.Params) string {
+	return icons.ApplyParams(_TagCog, params...)
+}
+
+//go:embed tag-dollar.svg
+var _TagDollar string
+func TagDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_TagDollar, params...)
+}
+
+//go:embed tag-down.svg
+var _TagDown string
+func TagDown(params ...icons.Params) string {
+	return icons.ApplyParams(_TagDown, params...)
+}
+
+//go:embed tag-exclamation.svg
+var _TagExclamation string
+func TagExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_TagExclamation, params...)
+}
+
+//go:embed tag-heart.svg
+var _TagHeart string
+func TagHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_TagHeart, params...)
 }
 
 //go:embed tag-minus.svg
@@ -28400,16 +29948,64 @@ func TagOff(params ...icons.Params) string {
 	return icons.ApplyParams(_TagOff, params...)
 }
 
+//go:embed tag-pause.svg
+var _TagPause string
+func TagPause(params ...icons.Params) string {
+	return icons.ApplyParams(_TagPause, params...)
+}
+
+//go:embed tag-pin.svg
+var _TagPin string
+func TagPin(params ...icons.Params) string {
+	return icons.ApplyParams(_TagPin, params...)
+}
+
 //go:embed tag-plus.svg
 var _TagPlus string
 func TagPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_TagPlus, params...)
 }
 
+//go:embed tag-question.svg
+var _TagQuestion string
+func TagQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_TagQuestion, params...)
+}
+
+//go:embed tag-search.svg
+var _TagSearch string
+func TagSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_TagSearch, params...)
+}
+
+//go:embed tag-share.svg
+var _TagShare string
+func TagShare(params ...icons.Params) string {
+	return icons.ApplyParams(_TagShare, params...)
+}
+
+//go:embed tag-star.svg
+var _TagStar string
+func TagStar(params ...icons.Params) string {
+	return icons.ApplyParams(_TagStar, params...)
+}
+
 //go:embed tag-starred.svg
 var _TagStarred string
 func TagStarred(params ...icons.Params) string {
 	return icons.ApplyParams(_TagStarred, params...)
+}
+
+//go:embed tag-up.svg
+var _TagUp string
+func TagUp(params ...icons.Params) string {
+	return icons.ApplyParams(_TagUp, params...)
+}
+
+//go:embed tag-x.svg
+var _TagX string
+func TagX(params ...icons.Params) string {
+	return icons.ApplyParams(_TagX, params...)
 }
 
 //go:embed tags.svg
@@ -29816,6 +31412,12 @@ func UserExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_UserExclamation, params...)
 }
 
+//go:embed user-flame.svg
+var _UserFlame string
+func UserFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_UserFlame, params...)
+}
+
 //go:embed user-heart.svg
 var _UserHeart string
 func UserHeart(params ...icons.Params) string {
@@ -29906,6 +31508,12 @@ func UserShield(params ...icons.Params) string {
 	return icons.ApplyParams(_UserShield, params...)
 }
 
+//go:embed user-spark.svg
+var _UserSpark string
+func UserSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_UserSpark, params...)
+}
+
 //go:embed user-square.svg
 var _UserSquare string
 func UserSquare(params ...icons.Params) string {
@@ -29942,10 +31550,64 @@ func Users(params ...icons.Params) string {
 	return icons.ApplyParams(_Users, params...)
 }
 
+//go:embed users-bolt.svg
+var _UsersBolt string
+func UsersBolt(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersBolt, params...)
+}
+
+//go:embed users-cancel.svg
+var _UsersCancel string
+func UsersCancel(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersCancel, params...)
+}
+
+//go:embed users-check.svg
+var _UsersCheck string
+func UsersCheck(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersCheck, params...)
+}
+
+//go:embed users-code.svg
+var _UsersCode string
+func UsersCode(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersCode, params...)
+}
+
+//go:embed users-cog.svg
+var _UsersCog string
+func UsersCog(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersCog, params...)
+}
+
+//go:embed users-dollar.svg
+var _UsersDollar string
+func UsersDollar(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersDollar, params...)
+}
+
+//go:embed users-down.svg
+var _UsersDown string
+func UsersDown(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersDown, params...)
+}
+
+//go:embed users-exclamation.svg
+var _UsersExclamation string
+func UsersExclamation(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersExclamation, params...)
+}
+
 //go:embed users-group.svg
 var _UsersGroup string
 func UsersGroup(params ...icons.Params) string {
 	return icons.ApplyParams(_UsersGroup, params...)
+}
+
+//go:embed users-heart.svg
+var _UsersHeart string
+func UsersHeart(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersHeart, params...)
 }
 
 //go:embed users-minus.svg
@@ -29954,10 +31616,58 @@ func UsersMinus(params ...icons.Params) string {
 	return icons.ApplyParams(_UsersMinus, params...)
 }
 
+//go:embed users-pause.svg
+var _UsersPause string
+func UsersPause(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersPause, params...)
+}
+
+//go:embed users-pin.svg
+var _UsersPin string
+func UsersPin(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersPin, params...)
+}
+
 //go:embed users-plus.svg
 var _UsersPlus string
 func UsersPlus(params ...icons.Params) string {
 	return icons.ApplyParams(_UsersPlus, params...)
+}
+
+//go:embed users-question.svg
+var _UsersQuestion string
+func UsersQuestion(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersQuestion, params...)
+}
+
+//go:embed users-search.svg
+var _UsersSearch string
+func UsersSearch(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersSearch, params...)
+}
+
+//go:embed users-share.svg
+var _UsersShare string
+func UsersShare(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersShare, params...)
+}
+
+//go:embed users-star.svg
+var _UsersStar string
+func UsersStar(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersStar, params...)
+}
+
+//go:embed users-up.svg
+var _UsersUp string
+func UsersUp(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersUp, params...)
+}
+
+//go:embed users-x.svg
+var _UsersX string
+func UsersX(params ...icons.Params) string {
+	return icons.ApplyParams(_UsersX, params...)
 }
 
 //go:embed uv-index.svg
@@ -30812,10 +32522,22 @@ func WorldExclamation(params ...icons.Params) string {
 	return icons.ApplyParams(_WorldExclamation, params...)
 }
 
+//go:embed world-flame.svg
+var _WorldFlame string
+func WorldFlame(params ...icons.Params) string {
+	return icons.ApplyParams(_WorldFlame, params...)
+}
+
 //go:embed world-heart.svg
 var _WorldHeart string
 func WorldHeart(params ...icons.Params) string {
 	return icons.ApplyParams(_WorldHeart, params...)
+}
+
+//go:embed world-key.svg
+var _WorldKey string
+func WorldKey(params ...icons.Params) string {
+	return icons.ApplyParams(_WorldKey, params...)
 }
 
 //go:embed world-latitude.svg
@@ -30888,6 +32610,12 @@ func WorldSearch(params ...icons.Params) string {
 var _WorldShare string
 func WorldShare(params ...icons.Params) string {
 	return icons.ApplyParams(_WorldShare, params...)
+}
+
+//go:embed world-spark.svg
+var _WorldSpark string
+func WorldSpark(params ...icons.Params) string {
+	return icons.ApplyParams(_WorldSpark, params...)
 }
 
 //go:embed world-star.svg
